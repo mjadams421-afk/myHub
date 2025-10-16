@@ -2,6 +2,8 @@
 header {
 font-size: 100px;
 font-family: impact arial sans-serif;
+position: relative;
+left: 50px;
 }
 
 nav {
@@ -27,6 +29,7 @@ color: black;
 figure {
   position: relative;
   top: 200px;
+  left: 50px;
   font-size: 50px;
   font-family: arial;
 }
@@ -38,6 +41,6 @@ footer {
  position: relative;
  top: 400px;
  display: inline-block;
- width: 500x;
- height: 500px;
+ width: 150px;
+ height: 150px;
 }
