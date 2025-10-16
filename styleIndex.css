@@ -1,0 +1,43 @@
+
+header {
+font-size: 100px;
+font-family: impact arial sans-serif;
+}
+
+nav {
+  background: rgba(150,150,250,0.2);
+  color: rgb(73,20,125);
+  padding: 0px 0px;
+  margin: 0px 0px;
+  border: solid black 8px;
+  display: inline-block;
+  width: 500px;
+  height: 200px;
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+  font-family: arial black;
+}
+nav:hover {
+color: rgba(150,150,250,0.8)
+} 
+nav p{
+color: black;
+}
+figure {
+  position: relative;
+  top: 200px;
+  font-size: 50px;
+  font-family: arial;
+}
+figure table{
+ border: 5px solid black;
+ background-color: rgba(220,220,150,0.5);
+}
+footer {
+ position: relative;
+ top: 400px;
+ display: inline-block;
+ width: 500x;
+ height: 500px;
+}
