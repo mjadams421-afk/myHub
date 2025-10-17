@@ -10,7 +10,9 @@ font-family:Arial, Helvetica, sans-serif;
 background-color:azure;
 display: inline;
 width: fit-content;
-border: ridge;
+border: 5px ridge violet;
+position: relative;
+left: 50px;
 }
 
 nav divNavA {
@@ -27,8 +29,10 @@ background-color: rgb(250,250,250);
 display: inline;
 width: 300px;
 margin: 0 auto;
-border: groove;
+border: 5px groove rgb(50,50,100);
 font-family:'Times New Roman', Times, serif;
+position: absolute;
+left: 100px;
 }
 article divA h1 {
 color: black;
@@ -42,12 +46,32 @@ background-color: rgb(250,250,250);
 display: inline;
 width: 300px;
 margin: 0 auto;
-border: groove;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+border: 5px groove rgb(100,100,50);
+font-family: 'Courier New', Courier, monospace, sans-serif;
+position: absolute;
+left: 100px;
 }
 article divB h1 {
 color: black;
 }
 article divB h2 {
+color: black;
+}
+
+article divC {
+color: rgb(170, 70, 20);
+background-color: rgb(250,250,250);
+display: inline;
+width: 300px;
+margin: 0 auto;
+border: 5px groove rgb(170,70,20);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+position: absolute;
+left: 100px;
+}
+article divC h1 {
+color: black;
+}
+article divC h2 {
 color: black;
 }
