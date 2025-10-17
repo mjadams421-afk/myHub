@@ -1,6 +1,16 @@
 header {
 font-size: 100px;
-font-family: impact arial sans-serif;
+font-family: impact, arial, sans-serif;
 position: relative;
 left: 50px;
 }
+
+nav {
+font-size: 50px;
+font-family:Arial, Helvetica, sans-serif;
+display: inline-block;
+width: fit-content;
+border: ridge;
+background-color:rgb(28, 100, 139);
+}
+

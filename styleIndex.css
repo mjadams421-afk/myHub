@@ -3,7 +3,7 @@ background-color: rgba(180,220,250,0.1);
 }
 header {
 font-size: 100px;
-font-family: impact arial sans-serif;
+font-family: impact, arial, sans-serif;
 position: relative;
 left: 50px;
 }
