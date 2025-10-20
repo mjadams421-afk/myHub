@@ -31,8 +31,7 @@ color: black;
 figure {
   position: relative;
   top: 200px;
-  margin: auto;
-  width: 50%;
+  display: block;
   font-size: 50px;
   font-family: arial;
   background-image: url("Charlemagne.PNG");
