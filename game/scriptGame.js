@@ -1,4 +1,4 @@
-let codeA = document.getElementById('event');
+codeA = document.getElementById('event');
 
  function colorChangeA () {
     codeA.style.backgroundColor = 'rgb(150,150,150)';
