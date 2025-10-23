@@ -4,3 +4,10 @@ font-family: impact, arial, sans-serif;
 position: relative;
 left: 50px;
 }
+
+article {
+display: inline-block;
+width: 800px;
+position: relative;
+left: 50px;
+}
