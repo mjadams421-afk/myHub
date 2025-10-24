@@ -4,6 +4,10 @@ header {
  position: relative;
  left: 50px;
 }
+divIntro {
+ position: relative;
+ left: 50px;
+}
 nav {
  position: fixed;
  right: 0px;
