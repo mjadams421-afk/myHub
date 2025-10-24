@@ -1,0 +1,15 @@
+nav {
+ background-color: green;
+ position: fixed;
+ right: 0px;
+ display: inline-block;
+ width: 200px;
+ height: 400px;
+}
+
+article {
+position: relative;
+left: 20px;
+display: inline-block;
+width: 800px;
+}
