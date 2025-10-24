@@ -7,9 +7,28 @@ nav {
  height: 400px;
 }
 
+nav:hover {
+background-color: yellowgreen;
+}
+
 article {
 position: relative;
 left: 20px;
 display: inline-block;
 width: 800px;
+}
+
+article h5 {
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 20px;
+}
+
+article h3 {
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 40px;
+}
+
+article h1 {
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 60px;
 }
