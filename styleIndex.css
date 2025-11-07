@@ -77,3 +77,6 @@ footer h2:hover {
  color: red;
  background-color:blueviolet;
 }
+footer p {
+ top: 300px;
+}

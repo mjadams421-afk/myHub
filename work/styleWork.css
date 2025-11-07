@@ -11,6 +11,7 @@ header {
 }
 divIntro {
  position: relative;
+ display: inline-block;
  width: 1000px;
  position: relative;
  left: 50px;
@@ -22,7 +23,7 @@ nav {
  background-color: red;
  border: 5px solid black;
  display: inline-flex;
- width: 180px;
+ width: 200px;
  height: auto; 
  margin: 0px;
  padding: 0px;
