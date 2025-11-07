@@ -23,10 +23,11 @@ nav {
  background-color: red;
  border: 5px solid black;
  display: inline-flex;
- width: 200px;
+ width: 350px;
  height: auto; 
  margin: 0px;
  padding: 0px;
+ z-index: 2;
  transition: background-color 500ms ease-in 200ms, 
  right 500ms linear 100ms;
 }
