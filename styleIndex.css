@@ -59,7 +59,7 @@ figure table{
  font-family: arial;
  left: 600px;
 }
-footer {
+footer h2 {
  position: relative;
  top: 200px;
  display: block;
@@ -72,7 +72,7 @@ footer {
  color 600ms ease-in 200ms, 
  background-color 600ms ease-in 200ms;
 }
-footer:hover {
+footer h2:hover {
  font-size: 2rem;
  color: red;
  background-color:blueviolet;

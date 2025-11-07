@@ -1,10 +1,17 @@
 header {
+ display: inline-block;
+ align-content: center;
  font-size: 100px;
  font-family: impact, arial, sans-serif;
  position: relative;
  left: 50px;
+ background-color:beige;
+ border: 4px groove blue;
+
 }
 divIntro {
+ position: relative;
+ width: 1000px;
  position: relative;
  left: 50px;
 }
@@ -14,11 +21,12 @@ nav {
  top: 50px;
  background-color: red;
  border: 5px solid black;
- display: inline-block;
- width: 200px;
- height: 800px; 
+ display: inline-flex;
+ width: 180px;
+ height: auto; 
  margin: 0px;
  padding: 0px;
+ transition: background-color 500ms ease-in 200ms;
 }
 nav:hover{
  background-color: grey;

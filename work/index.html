@@ -25,10 +25,12 @@
   <ul>
     <li><a href="#traffic">Traffic Control</a></li>
     <li><a href="#geometry">Goemetry Design</a></li>
+    <li><a href="#speed">Speed Design</a></li>
   </ul>
 </nav>
 
 <article>
+ <!--Trafic Control Design-->
  <divA id="traffic">
   <h2><strong>Traffic Control</strong></h2>
     <h4>Signals vs. Roundabouts</h4>
@@ -50,7 +52,7 @@
       </em></p>
      <h4>Other Controls</h4>
       <P>No Control: All approaches are minor roads. Traffic volume
-      less than 1,000 AADT. Arroxamitely 90^ turning.</P>
+      less than 1,000 AADT. Aprox. 90^ turning.</P>
       <p>Yield Control: Upgrade from no control if 2 or more crashes
       last 12 months. Less than 1,800 AADT or 140 vph. Anytime yielding
       to the ROW for pedestrians of cars.</p>
@@ -66,18 +68,32 @@
        <li><a href="https://mutcd.fhwa.dot.gov/" target="_blank">MUTCD resource</a></li>
        <li><a href="https://www.fhwa.dot.gov/resources/topics/" target="_blank">FHWA resource</a></li>
       </ul>
- </divA id="geometry">
+ </divA>
+ <!--Geometry Design-->
+ <divB id="geometry">
   <h2><strong>Roadway Geometry</strong></h2>
    <h4>Design Vehicles</h4>
     <p>All roadways must be designed to accomidate the design vehicle
     for the designated road class. All roadways must be designed for
     the potential of an oversized vehicle from a near by higher class road.
     </p>
- <divB>
-
-
-
+   <h4>Pedestrians</h4>
+    <p>Must be ADA complitant with average age of location.</p>
+    <p>Must have controls in place to have sufficent time to cross.</p>
  </divB>
+ <!--Speed Design-->
+ <divC id="speed">
+  <h2><strong>Speed Design</strong></h2>
+   <p>Speed Design is a ballace of Speed[V=miles/hour] vs. Density[K=veh/mile]</p>
+   <P>Important analysis of density is spacing [1/K=miles/vehicle]. Converting this to
+   ft/veh is <strong>[1/k]*5280<em>ft/mile</em>.</strong> This is used for micro analysis
+   of a roadway's level of service.</P>
+   <p>Another ballance is Speed[V=miles/hour] vs. Flow[Q=veh/hour].</p>
+   <p>Important analysis flow is gap [1/Q=hours/veh]. Converting this to
+   sec/veh is <strong>[1/Q]*3600<em>sec/hour</em>.</strong> This is used for analysis in pedestrian
+   crossing times across a roadway.
+   </p>
+ </divC>
 
 </article>
 
