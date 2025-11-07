@@ -5,6 +5,7 @@ header {
 display: flex;
 height: auto;
 align-items: center;
+align-content: center;
 background-image: url('Charlemagne.PNG');
 background-size: cover;
 font-size: 6.25rem;
@@ -60,16 +61,19 @@ figure table{
 }
 footer {
  position: relative;
- top: 80px;
+ top: 200px;
  display: block;
  width: 100%;
  height: auto;
  font-size: 1.5rem;
  color: black;
+ background-color: grey;
  transition: font-size 600ms ease-in 200ms, 
- color 600ms ease-in 200ms;
+ color 600ms ease-in 200ms, 
+ background-color 600ms ease-in 200ms;
 }
 footer:hover {
  font-size: 2rem;
  color: red;
+ background-color:blueviolet;
 }
