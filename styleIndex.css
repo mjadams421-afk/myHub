@@ -9,7 +9,7 @@ background-image: url('Charlemagne.PNG');
 background-size: cover;
 font-size: 6.25rem;
 font-family: impact, arial, sans-serif;
-position: fixed;
+position: relative;
 left: 50px;
 }
 
@@ -19,12 +19,12 @@ nav {
   padding: 0px 0px;
   margin: 0px 0px;
   border: solid black 8px;
-  display: inline-block;
-  width: 500px;
-  height: 200px;
+  display: inline-flex;
+  width: 50%;
+  height: auto;
   position: sticky;
   z-index: 1;
-  top: 0px;
+  top: 50px;
   font-family: arial black;
   font-size: 1rem;
   transition: color 600ms linear 300ms, 
@@ -59,7 +59,8 @@ figure table{
  left: 600px;
 }
 footer {
- position: top 50px;
+ position: relative;
+ top: 80px;
  display: block;
  width: 100%;
  height: auto;
