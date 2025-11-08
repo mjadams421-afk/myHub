@@ -79,4 +79,8 @@ footer h2:hover {
 }
 footer p {
  top: 500px;
+ position: relative;
+ display: block;
+ width: 100%;
+ height: auto;
 }

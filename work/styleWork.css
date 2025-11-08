@@ -1,5 +1,5 @@
 header {
- display: inline-block;
+ display: block;
  align-content: center;
  font-size: 100px;
  font-family: impact, arial, sans-serif;
@@ -15,11 +15,13 @@ divIntro {
  width: 1000px;
  position: relative;
  left: 50px;
+ font-size: 20px;
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 nav {
  position: fixed;
  right: -150px;
- top: 50px;
+ top: 150px;
  background-color: red;
  border: 5px solid black;
  display: inline-flex;
@@ -33,7 +35,7 @@ nav {
 }
 nav:hover{
  background-color: grey;
- right: 150px;
+ right: 100px;
 }
 
 article {
