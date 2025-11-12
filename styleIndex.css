@@ -31,7 +31,9 @@ nav {
   transition: color 600ms linear 300ms, 
   background-color 600ms linear 300ms, 
   font-size 600ms linear 300ms;
-  cursor: pointer;
+}
+nav .index {
+cursor: pointer;
 }
 nav:hover {
 color: rgba(150,150,250,0.8);
@@ -72,8 +74,12 @@ footer h2 {
  transition: font-size 600ms ease-in 200ms, 
  color 600ms ease-in 200ms, 
  background-color 600ms ease-in 200ms;
- cursor: pointer;
 }
+
+footer .index {
+ cursor: pointer; 
+}
+
 footer h2:hover {
  font-size: 2rem;
  color: red;
