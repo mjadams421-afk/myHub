@@ -92,29 +92,51 @@
    <p> + #object [color: 'blue'; ] *selecting an id, most specific </p>
    <h3>Concepts:</h3>
    <p> + <a href="https://www.codecademy.com/resources/docs/css" target="_blank"> CSS concepts to modify concept styles</a></p>
-   <h3>Types of Displays</h3>
+   <h3>Types of Displays: </h3>
    <p> + display: block; *block model of content full width </p>
    <p> + display: inline-block; width: 200px; height: 100px; *can display content next to others with specified dimensions </p>
    <p> + display: flex; height: auto; *flex model of content full width with flex height </p>
    <p> + display: inline-flex: width: 200px; height: auto; *flex model with content next to others with flex height </p>
-   <h3>Position </h3>
+   <h3>Position: </h3>
    <p> + position: fixed; right: 50px; *content will be fixed 50px from the right </p>
    <p> + position: relative; top: 20px; left: 50px; *position content from top left </p>
    <p> + position: relative; z-index: 1; *position as on top of other content by 1 </p>
    <p> + position: sticky; top: 0; *content will move with screen at 0 from top </p>
-   <h3>Overflow</h3>
+   <h3>Overflow: </h3>
    <p> + overflow: hidden; *typical overflow setting to mask overflow </p>
    <p> + overflow: scroll; *typical overflow setting to scroll overflow </p>
-   <h3>Screen setting</h3>
+   <h3>Screen setting: </h3>
    <p> + @media screen only and (max-width: 1000px) [ </p>
    <p> + nav [
    <p> + display: none; ] ] *takes away navigation if screen width less than 1000px </p>
-   </p>
-   </p>
    <script src="scriptGame.js"> </script>  
  </divB>
  <divC id="javaSc">
   <h1> Basics of Java Script styles </h1>
+  <br>
+  <h2><strong> document instructions: </strong></h2>
+   <li>
+    <ol><h2>'[..] means {..}.' </h2></ol>
+    <ol><h2> * means a note about code </h2></ol>
+    <ol><h2> an embelish e.x. <em>text</em> means example filler</h2></ol>
+   </li>
+   <br>
+   <p> > Javascript makes a webpage interactive</p>
+   <p> > In order to select items in a document must use the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Events" target="_blank">DOM</a></p>
+   <p> > An <a href="https://developer.mozilla.org/en-US/docs/Web/API/Event" target="_blank">Event</a> is the action that activates the Javascript code</p>
+   <p> > <a href="https://www.codecademy.com/learn/build-interactive-websites/modules/web-dev-interactive-websites/cheatsheet" target="_blank">CodeCademy</a> has information on the basic setup of Javascript code</p>
+   <br>
+   <h3>Basic Setup html page: </h3>
+   <p> + [script src="scrip.js"] [/script] *put at and of content to process script id to the JavaScript page</p>
+   <p> + [/html] *tag for html</p>
+   <h3>Basic Setup JavaScript page: </h3>
+   <p> + let element = document.getElementById['link'] *sets the content with id <strong>link</strong> to the variable <strong>element</strong> in JavaScaript page</p>
+   <br>
+   <p> + function textChange() [ *name of function</p>
+   <p> + element.innerHTML = 'change text'; *Variable <stong>element</stong> uses <strong>innerHTML</strong> to change the text of content</p>
+   <p> + element.style.color = 'blue'; ] *Using <stong>.style</stong> can set color of element </p>
+   <br>
+   <p> + element.addEventListener('click',textChange); *Assigned an event of 'click' for the function textChange </p>
  </divC>
 </article>
 
