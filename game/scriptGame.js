@@ -4,6 +4,9 @@ codeA = document.getElementById('event');
  function colorChangeA () {
     codeA.style.backgroundColor = 'rgb(150,150,150)';
     codeA.style.color = 'blue';
+    codeA.style.fontSize = '100px';
+    codeA.style.position = 'relative';
+    codeA.style.left = '400px';
     codeA.innerHTML = 'You clicked me';
  }
 
