@@ -8,6 +8,11 @@ header {
  background-color:beige;
  border: 4px groove blue;
 
+ header #topext {
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color:blueviolet;
+ }
+
 }
 divIntro {
  position: relative;
