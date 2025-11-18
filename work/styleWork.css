@@ -13,8 +13,8 @@ header {
  color:blueviolet;
  }
 
-}
-divIntro {
+
+div {
  position: relative;
  display: inline-block;
  width: 1000px;
@@ -38,7 +38,7 @@ nav {
  transition: background-color 500ms ease-in 200ms, 
  right 500ms linear 100ms;
 }
-nav:hover{
+nav:hover {
  background-color: grey;
  right: 0px;
 }

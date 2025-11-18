@@ -96,7 +96,8 @@ color: black;
 }
 
 figure h3 {
- display: none;
+ display: block;
+ opacity: 80%;
 }
 figure h3:active {
  display: flex;
