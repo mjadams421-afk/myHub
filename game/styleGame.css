@@ -101,4 +101,5 @@ figure h3 {
 }
 figure h3:active {
  display: flex;
+ background-color: azure;
 }
