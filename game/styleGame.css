@@ -103,3 +103,24 @@ figure h3:active {
  display: flex;
  background-color: azure;
 }
+
+#event {
+ color: red;
+ font-size: 50px;
+ position: relative;
+ left: 50px;
+}
+
+#scene {
+ color: blueviolet;
+ font-size: 50px;
+ position: relative;
+ left: 100px;
+}
+
+#move {
+ color: greenyellow;
+ font-size: 50px;
+ position: relative;
+ left: 150px;
+}

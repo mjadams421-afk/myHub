@@ -6,7 +6,7 @@ codeA = document.getElementById('event');
     codeA.style.color = 'blue';
     codeA.style.fontSize = '100px';
     codeA.style.position = 'relative';
-    codeA.style.left = '200px';
+    codeA.style.left = '100px';
     codeA.style.display = 'flex';
     codeA.innerHTML = 'NO SECRET HERE';
     }
@@ -20,12 +20,27 @@ codeA = document.getElementById('event');
      codeB.style.backgroundColor = 'green';
      codeB.style.fontSize = '100px';
      codeB.style.position = 'relative';
-     codeB .style.left = '200px';
+     codeB .style.left = '150px';
      codeB.style.display = 'flex';
      codeB.innerhtml = 'YOU REALLY THOUGHT THERE WAS A SECRET HERE';
  }
 
- codeB.addEventListener('click',changeB);
+ //Next click word for move
+ codeC = document.getElementById('move');
+
+    function changeB () {
+     codeC.style.color = 'red';
+     codeC.style.backgroundColor = 'grey';
+     codeC.style.fontSize = '100px';
+     codeC.style.position = 'relative';
+     codeC.style.left = '200px';
+     codeC.style.display = 'flex';
+     codeC.innerhtml = ' Find the secret word below';
+     codeC.innerhtml = 'find The secrEt word by teLLing me wheat is happenING'
+ }
+
+
+ codeC.addEventListener('click',changeC);
 
 
 
