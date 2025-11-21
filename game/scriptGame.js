@@ -24,11 +24,12 @@ codeA = document.getElementById('event');
      codeB.style.display = 'flex';
      codeB.innerhtml = 'YOU REALLY THOUGHT THERE WAS A SECRET HERE';
  }
+  codeB.addEventListener('click',changeB);
 
  //Next click word for move
  codeC = document.getElementById('move');
 
-    function changeB () {
+    function changeC () {
      codeC.style.color = 'red';
      codeC.style.backgroundColor = 'grey';
      codeC.style.fontSize = '100px';
