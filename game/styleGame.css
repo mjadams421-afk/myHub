@@ -124,3 +124,35 @@ figure h3:active {
  position: relative;
  left: 150px;
 }
+/*logB.html*/
+
+article #first {
+ display: flex;
+ left: 50px;
+ font-size: 100px;
+ background-image: url('XGen_studios.jpg');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ transition: font-size 600ms linear 200ms;
+}
+
+article #first:hover {
+ font-size: 150px;
+}
+
+
+article #sec {
+ display: flex;
+ left: 50px;
+ font-size: 100px;
+ background-image: url('OSRS_image.jpg');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ transition: font-size 600ms linear 200ms;
+}
+
+article #sec:hover {
+ font-size: 150px;
+}
