@@ -36,7 +36,6 @@ codeA = document.getElementById('event');
      codeC.style.position = 'relative';
      codeC.style.left = '200px';
      codeC.style.display = 'flex';
-     codeC.innerHTML = ' Find the secret word below';
      codeC.innerHTML = 'find The secrEt word by teLLing me wheat is happenING';
  }
 
