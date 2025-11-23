@@ -22,7 +22,7 @@ codeA = document.getElementById('event');
      codeB.style.position = 'relative';
      codeB .style.left = '150px';
      codeB.style.display = 'flex';
-     codeB.innerhtml = 'YOU REALLY THOUGHT THERE WAS A SECRET HERE';
+     codeB.innerHTML = 'YOU REALLY THOUGHT THERE WAS A SECRET HERE';
  }
   codeB.addEventListener('click',changeB);
 
@@ -36,8 +36,8 @@ codeA = document.getElementById('event');
      codeC.style.position = 'relative';
      codeC.style.left = '200px';
      codeC.style.display = 'flex';
-     codeC.innerhtml = ' Find the secret word below';
-     codeC.innerhtml = 'find The secrEt word by teLLing me wheat is happenING'
+     codeC.innerHTML = ' Find the secret word below';
+     codeC.innerHTML = 'find The secrEt word by teLLing me wheat is happenING';
  }
 
 
