@@ -1,3 +1,8 @@
+html {
+ font-size: 18px;
+}
+
+
 header {
 font-size: 100px;
 font-family: impact, arial, sans-serif;
@@ -129,7 +134,7 @@ figure h3:active {
 article #first {
  display: flex;
  left: 50px;
- font-size: 100px;
+ font-size: 5rem;
  background-image: url('XGen_studios.jpg');
  background-repeat: no-repeat;
  background-position: center;
@@ -138,14 +143,14 @@ article #first {
 }
 
 article #first:hover {
- font-size: 150px;
+ font-size: 6rem;
 }
 
 
 article #sec {
  display: flex;
  left: 50px;
- font-size: 100px;
+ font-size: 5rem;
  background-image: url('OSRS_image.jpg');
  background-repeat: no-repeat;
  background-position: center;
@@ -154,5 +159,5 @@ article #sec {
 }
 
 article #sec:hover {
- font-size: 150px;
+ font-size: 6rem;
 }
