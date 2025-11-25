@@ -174,3 +174,33 @@ article #sec {
 article #sec:hover {
  font-size: 6rem;
 }
+
+article #third {
+ display: flex;
+ left: 50px;
+ font-size: 5rem;
+ background-image: url('Miniclip_games.png');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ transition: font-size 600ms linear 200ms;
+}
+
+article #third:hover {
+ font-size: 6rem;
+}
+
+article #fourth {
+  display: flex;
+ left: 50px;
+ font-size: 5rem;
+ background-image: url('newdGrounds_games.png');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ transition: font-size 600ms linear 200ms;
+}
+
+article #fourth:hover {
+ font-size: 6rem;
+}
