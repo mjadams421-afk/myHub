@@ -42,7 +42,17 @@ codeA = document.getElementById('event');
 
  codeC.addEventListener('click',changeC);
 
+//Next click for answer
+codeD = document.getElementById('answer');
 
+  function changeD () {
+   codeD.style.position = 'relative;'
+   codeD.style.left = '200px';
+   codeD.style.display = 'flex';
+   codeD.innerHTML = 'The answer is:______'
+  }
+
+  codeD.addEventListener('click',changeD);
 
 //html scroll function
 word = document.getElemenyById('htmlDoc');

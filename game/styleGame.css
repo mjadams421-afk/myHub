@@ -17,17 +17,18 @@ display: inline-block;
 padding: 0px 0px;
 margin: 0px 0px;
 width: 700px;
-height: 350px;
+height: 200px;
 overflow: scroll;
 border: 5px ridge violet;
 position: relative;
 left: 50px;
-transition: background-color 600ms linear 200ms, 
-border 600ms linear 200ms;
+transition: background-color 600ms linear 200ms,  
+border 600ms linear 200ms, height 600ms linear 200ms;
 }
 nav:hover {
  background-color:brown;
  border: 5px solid black;
+ height: 450px;
 }
 
 nav divNavA {
@@ -108,7 +109,7 @@ figure h3:active {
  display: flex;
  background-color: azure;
 }
-
+/*logc.html*/
 #event {
  color: red;
  font-size: 50px;
@@ -128,6 +129,18 @@ figure h3:active {
  font-size: 50px;
  position: relative;
  left: 150px;
+}
+
+#answer {
+ color: green;
+ font-size: 50px;
+ position: relative;
+ left: 150px;
+ transition: left 2s ease-in 200ms, color 600ms ease-in 200ms; 
+}
+#answer:hover {
+ color: blue;
+ left: -150px;
 }
 /*logB.html*/
 
