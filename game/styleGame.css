@@ -190,18 +190,18 @@ article #third:hover {
  font-size: 6rem;
 }
 
-article #fourth {
+figure #fourth {
  display: flex;
  left: 50px;
  font-size: 5rem;
- background-image: url('newdGrounds_games.png');
+ background-image: url('Movies_anywhere.jpg');
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
  transition: font-size 600ms linear 200ms;
 }
 
-article #fourth:hover {
+figure #fourth:hover {
  font-size: 6rem;
 }
 
