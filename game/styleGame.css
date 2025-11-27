@@ -17,7 +17,7 @@ display: inline-block;
 padding: 0px 0px;
 margin: 0px 0px;
 width: 700px;
-height: 200px;
+height: 100px;
 overflow: scroll;
 border: 5px ridge violet;
 position: relative;
@@ -28,7 +28,7 @@ border 600ms linear 200ms, height 600ms linear 200ms;
 nav:hover {
  background-color:brown;
  border: 5px solid black;
- height: 450px;
+ height: 440px;
 }
 
 nav divNavA {
