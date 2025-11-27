@@ -191,7 +191,7 @@ article #third:hover {
 }
 
 article #fourth {
-  display: flex;
+ display: flex;
  left: 50px;
  font-size: 5rem;
  background-image: url('newdGrounds_games.png');
@@ -203,4 +203,14 @@ article #fourth {
 
 article #fourth:hover {
  font-size: 6rem;
+}
+
+article .games {
+ border: 10px outset grey; 
+}
+
+header .gtitle {
+ display: flex;
+ background-color:aquamarine;
+ border: 5px ridge grey;
 }
