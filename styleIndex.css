@@ -50,22 +50,8 @@ figure {
   display: flex;
   width: 100%;
   height: auto;
-  background-image: url("Charlemagne.PNG");
 }
-figure table{
- display: none;
- border: 5px solid black;
- background-color: rgba(220,220,150,0.5);
- width: 50%;
- height: auto;
- font-size: 50px;
- font-family: arial;
- right: 0px;
- transition: display 600ms linear 200ms;
-}
-figure table:hover {
- display:flex;
-}
+
 footer h2 {
  position: relative;
  top: 200px;
