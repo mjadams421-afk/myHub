@@ -63,3 +63,26 @@ article h2 {
  font-size: 40px;
  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/*figure animation*/
+
+figure {
+ display: flex;
+ border: 10px double black;
+}
+figure .right {
+ position: relative;
+ left: 0%;
+ transition: left 600ms ease-in 400ms;
+}
+figure .right:hover {
+ left: 100%;
+}
+figure .left {
+ position: relative;
+ right: 0%;
+ transition: right 600ms ease-in 400ms;
+}
+figure .left:hover {
+ right: 100%;
+}
