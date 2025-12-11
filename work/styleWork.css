@@ -66,24 +66,26 @@ article h2 {
 
 /*figure animation*/
 
-figure {
+figureA, figureB {
  display: flex;
+ width: 100%;
+ height: auto;
  border: 10px double black;
 }
-figure .right {
+figureA .right {
  position: relative;
  left: 0%;
  transition: left 2s ease-in 400ms;
 }
-figure .right:hover {
+figureA .right:hover {
  left: 100%;
 }
-figure .left {
+figureB .left {
  position: relative;
  top: 50%;
  right: 0%;
  transition: right 2s ease-in 400ms;
 }
-figure .left:hover {
+figureB .left:hover {
  right: 100%;
 }
