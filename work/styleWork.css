@@ -73,15 +73,16 @@ figure {
 figure .right {
  position: relative;
  left: 0%;
- transition: left 600ms ease-in 400ms;
+ transition: left 2s ease-in 400ms;
 }
 figure .right:hover {
  left: 100%;
 }
 figure .left {
  position: relative;
+ top: 50%;
  right: 0%;
- transition: right 600ms ease-in 400ms;
+ transition: right 2s ease-in 400ms;
 }
 figure .left:hover {
  right: 100%;
