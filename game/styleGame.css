@@ -144,10 +144,15 @@ figure h3:active {
 }
 /*logB.html*/
 
+/*Games page*/
+
 article #first {
  display: flex;
+ position: relative;
+ height: auto;
  left: 50px;
  font-size: 5rem;
+ border: 10px dotted blue;
  background-image: url('XGen_studios.jpg');
  background-repeat: no-repeat;
  background-position: center;
@@ -162,8 +167,11 @@ article #first:hover {
 
 article #sec {
  display: flex;
+ position: relative;
+ height: auto;
  left: 50px;
  font-size: 5rem;
+ border: 10px dotted red;
  background-image: url('OSRS_image.jpg');
  background-repeat: no-repeat;
  background-position: center;
@@ -177,8 +185,11 @@ article #sec:hover {
 
 article #third {
  display: flex;
+ position: relative;
+ height: auto;
  left: 50px;
  font-size: 5rem;
+ border: 10px dotted orange;
  background-image: url('Miniclip_games.png');
  background-repeat: no-repeat;
  background-position: center;
@@ -190,8 +201,28 @@ article #third:hover {
  font-size: 6rem;
 }
 
-figure #fourth {
+article #fourth {
  display: flex;
+ position: relative;
+ height: auto;
+ left: 50px;
+ font-size: 5rem;
+ border: 10px dotted violet;
+ background-image: url('STICKPAGE.jpg');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ transition: font-size 600ms linear 200ms;
+}
+
+article #fourth:hover {
+ font-size: 6rem;
+}   
+
+figure #movie {
+ display: flex;
+ position: relative;
+ height: auto;
  left: 50px;
  font-size: 5rem;
  background-image: url('Movies_anywhere.jpg');
@@ -201,11 +232,13 @@ figure #fourth {
  transition: font-size 600ms linear 200ms;
 }
 
-figure #fourth:hover {
+figure #movie:hover {
  font-size: 6rem;
 }
 
 article .games {
+ display: flex;
+ height: auto;
  border: 10px outset grey; 
 }
 
