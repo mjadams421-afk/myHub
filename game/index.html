@@ -133,11 +133,21 @@
    <h3>JavaScript Fundamentals</h3>
    <p> + *<a href="https://www.codecademy.com/resources/docs/javascript/variables" target="_blank">Variables</a> are how data is stored. Data can be stored as numbers <em>100</em> or text <em>'text'</em>. Variables can 
    be declared as unchangable <em>const</em> or changable <em>let</em>. </p>
+   <p> + *<a href="https://www.codecademy.com/resources/docs/javascript/arrays" target="_blank">Arrays</a> are varriables that store a list of ordered data. Just like a variable an array can store data as a 
+   number, string or boolean <em>const mixedArray = [1, 'chicken', false];</em>. Array data is called/assigned by index number starting at 0, <em>mixedArray[0]=2;</em> assigns a value of 2 for the first array and
+   <em>console.log(mixedArray[0]);</em> prints the value of the first array item which is now 2. An array varriable can also use methods to modify the array varriable, some common methods are<em>mixedArray.push('egg')</em> adds 'egg' to end of array in slot [3] and 
+   <em>mixedArray.pop();</em> removes the last item from the array.</p>
    <p> + *<a href="https://www.codecademy.com/resources/docs/javascript/loops" target="_blank">Loops</a> are used to iterate or repeat code untill a condition is met. 
    A While loop iterates as long as the function is true e.x. <em> while (i < 5 ) [console.log(i); i++;]</em> *will print i while it is less than 5 then add 1.
    A For loop iterates using a start, ending condition and iteration update e.x. <em> for (let i = 0; i < 5; i++) [console.log(i);]</em> *will print i from 0 to 4.
+   <br>
    Using a for loop for arrays is very common e.x. <em> array = ['start', 'middle', 'end'] / for (let i = 0; i < array.length; i++) [console.log(array[i]);]</em> *will print each item in the array.</p>
    <br>
+   Using a loop with if and else statements is also very common e.x. <em> for (let i = 0; i < array.length; i++) [ if (i !== 0) [ console.log(array[i]); ] else [ console.log('End this loop at 0'); ] ]</em>. 
+   *will print each item in the array unless the index is 0 then it will print 'End this loop at 0'.</p>
+   <p> + *<a href="https://www.codecademy.com/resources/docs/javascript/functions" target="_blank">Functions</a> are fundemental and complex components of javascript. At its' basic form a function returns the value of a set of variables 
+   e.x. <em> function total(a,b,c) [ return a + b + c; ] console.log(total(2,5,5));</em> *This will print to console 12 b/c of the parameters used in the function. All functions used this basic principle of using parameters and assigning values 
+   to get a calculated return.</p> 
    <h3>Basic Setup html page: </h3>
    <p> + [script src="scrip.js"] [/script] *put at and of content to process script id to the JavaScript page</p>
    <p> + [/html] *tag for html</p>
