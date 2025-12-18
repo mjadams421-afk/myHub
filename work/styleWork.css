@@ -84,7 +84,7 @@ figdes #right {
  left: 80%;
 }
 
-figureA, figureB {
+figureA, figureB, figureC {
  display: flex;
  font-size: 1.5rem;
  font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -95,19 +95,35 @@ figureA, figureB {
  z-index: 3;
  background-color: lightgrey;
 }
-figureA .right {
+figureA .truck {
  position: relative;
  left: 0%;
- transition: left 5s ease-in 400ms;
+ transition: left 10s ease-in 400ms;
 }
-figureA .right:active {
+figureA .truck:active {
  left: 80%;
 }
-figureB .left {
+figureB .sports {
  position: relative;
- left: 80%;
- transition: left 5s ease-in 400ms;
-}
-figureB .left:active {
  left: 0%;
+ transition: left 4.5s ease-in 400ms;
+}
+figureB .sports:active {
+ left: 80%;
+}
+figureC .high {
+ position: relative;
+ left: 0%;
+ transition: left 2.5s ease-in 400ms;
+}
+figureC .high:active {
+ left: 80%;
+}
+figureD .top {
+ position: relative;
+ left: 0%;
+ transition: 500ms ease-in 400ms;
+}
+figureD .top:active {
+ left: 80%;
 }
