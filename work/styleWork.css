@@ -70,8 +70,11 @@ figdes  {
  width: 100%;
  font-size: 2rem;
  height: auto;
- 
+ position: relative;
+ z-index: 3; 
+ background-color: lightgrey;
 }
+
 figdes #left {
  position: relative;
  left: 0%;
@@ -90,13 +93,14 @@ figureA, figureB {
  border: 10px double black;
  position: relative;
  z-index: 3;
+ background-color: lightgrey;
 }
 figureA .right {
  position: relative;
  left: 0%;
  transition: left 5s ease-in 400ms;
 }
-figureA .right:hover {
+figureA .right:active {
  left: 80%;
 }
 figureB .left {
@@ -104,6 +108,6 @@ figureB .left {
  left: 80%;
  transition: left 5s ease-in 400ms;
 }
-figureB .left:hover {
+figureB .left:active {
  left: 0%;
 }
