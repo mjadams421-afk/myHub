@@ -82,3 +82,20 @@ footer p {
  width: 100%;
  height: auto;
 }
+
+footer #moveA {
+  display: flex;
+  width: 100%;
+  height: auto;
+  position: relative;
+  left: 50px;
+  font-size: 5rem;
+  color: white;
+  transition: color 2s ease-in 300ms,
+  font-size 2s ease-in 300ms;
+}
+
+ footer #moveA:hover {
+ font-size: 4rem;
+ color: black;
+ }
