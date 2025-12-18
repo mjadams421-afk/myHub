@@ -65,26 +65,43 @@ article h2 {
 }
 
 /*figure animation*/
+figdes  {
+ display: inline-flex;
+ width: 100%;
+ font-size: 2rem;
+ height: auto;
+ 
+}
+figdes #left {
+ position: relative;
+ left: 0%;
+}
+figdes #right {
+ position: relative;
+ left: 80%;
+}
 
 figureA, figureB {
  display: flex;
+ font-size: 1.5rem;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
  width: 100%;
  height: auto;
  border: 10px double black;
 }
-figureA .right {
+figureA img .right {
  position: relative;
  left: 0%;
- transition: left 2s ease-in 400ms;
+ transition: left 5s ease-in 400ms;
 }
-figureA .right:hover {
+figureA img .right:hover {
  left: 80%;
 }
-figureB .left {
+figureB img .left {
  position: relative;
  left: 80%;
- transition: right 2s ease-in 400ms;
+ transition: left 5s ease-in 400ms;
 }
-figureB .left:hover {
+figureB img .left:hover {
  left: 0%;
 }
