@@ -88,20 +88,22 @@ figureA, figureB {
  width: 100%;
  height: auto;
  border: 10px double black;
+ position: relative;
+ z-index: 3;
 }
-figureA img .right {
+figureA .right {
  position: relative;
  left: 0%;
  transition: left 5s ease-in 400ms;
 }
-figureA img .right:hover {
+figureA .right:hover {
  left: 80%;
 }
-figureB img .left {
+figureB .left {
  position: relative;
  left: 80%;
  transition: left 5s ease-in 400ms;
 }
-figureB img .left:hover {
+figureB .left:hover {
  left: 0%;
 }
