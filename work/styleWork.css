@@ -84,7 +84,7 @@ figdes #right {
  left: 80%;
 }
 
-figureA, figureAB, figureB, figureBC, figureC, figureD{
+figureA, figureAB, figureB, figureBC, figureC, figureCA, figureD{
  display: flex;
  font-size: 1.5rem;
  font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -133,6 +133,14 @@ figureC .high {
  transition: left 2.5s ease-in 400ms;
 }
 figureC .high:active {
+ left: 80%;
+}
+figureCA .pro {
+ position: relative;
+ left: 0%;
+ transition: left 1s ease-in 400ms;
+}
+figureCA .pro:active {
  left: 80%;
 }
 figureD .top {
