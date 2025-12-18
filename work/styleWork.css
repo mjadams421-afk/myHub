@@ -78,12 +78,11 @@ figureA .right {
  transition: left 2s ease-in 400ms;
 }
 figureA .right:hover {
- left: 100%;
+ left: 80%;
 }
 figureB .left {
  position: relative;
- top: 50%;
- left: 100%;
+ left: 80%;
  transition: right 2s ease-in 400ms;
 }
 figureB .left:hover {

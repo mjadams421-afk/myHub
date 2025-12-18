@@ -88,6 +88,7 @@ footer #moveA {
   width: 100%;
   height: auto;
   position: relative;
+  top: 500px;
   left: 50px;
   font-size: 5rem;
   color: white;
