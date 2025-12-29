@@ -85,7 +85,7 @@ footer p {
 }
 
 footer #moveA {
-  display: none;
+  display: flex;
   width: 100%;
   height: auto;
   position: relative;
@@ -96,8 +96,7 @@ footer #moveA {
   transition: color 2s ease-in 300ms,
   font-size 2s ease-in 300ms, 
   background-color 2s ease-out 300ms, 
-  border 2s ease-out 300ms, 
-  display 100ms linear 300ms;
+  border 2s ease-out 300ms;
 }
 
  footer #moveA:hover {
@@ -105,5 +104,4 @@ footer #moveA {
   color: black;
   background-color: yellow;
   border: solid black 5px;
-  display: flex;
  }
