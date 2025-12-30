@@ -52,12 +52,16 @@ border: 5px groove rgb(50,50,100);
 font-family:'Times New Roman', Times, serif;
 position: relative;
 left: 100px;
+transition: border 600ms ease-in 200ms;
 }
 article divA h1 {
 color: black;
 }
 article divA h2 {
 color: black;
+}
+article divA:hover {
+ border: 20px groove black;
 }
 article divB {
 color: rgb(100,100,50);
@@ -72,12 +76,16 @@ border: 5px groove rgb(100,100,50);
 font-family: 'Courier New', Courier, monospace, sans-serif;
 position: relative;
 left: 100px;
+transition: border 600ms ease-in 200ms;
 }
 article divB h1 {
 color: black;
 }
 article divB h2 {
 color: black;
+}
+article divB:hover {
+ border: 20px groove black;
 }
 
 article divC {
@@ -93,12 +101,17 @@ border: 5px groove rgb(170,70,20);
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 position: relative;
 left: 100px;
+transition: border 600ms ease-in 200ms;
 }
 article divC h1 {
 color: black;
 }
 article divC h2 {
 color: black;
+}
+
+article divC:hover {
+ border: 20px groove black;
 }
 
 figure h3 {
