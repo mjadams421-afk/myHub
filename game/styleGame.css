@@ -122,6 +122,18 @@ figure h3:active {
  display: flex;
  background-color: azure;
 }
+
+figure { 
+ position: relative;
+ left: 50px;
+ transition: left 2s ease-in 200ms;
+}
+
+
+figure:hover {
+ cursor: pointer;
+ left: 100%;
+}
 /*logc.html*/
 #event {
  color: red;
