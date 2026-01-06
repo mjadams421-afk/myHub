@@ -44,12 +44,12 @@ codeA = document.getElementById('event');
 
 //Next click for answer
 codeD = document.getElementById('answer');
-
+//Note to add text form for users' answer
   function changeD () {
    codeD.style.position = 'relative;'
    codeD.style.left = '200px';
    codeD.style.display = 'flex';
-   codeD.innerHTML = 'The answer is:______'
+   codeD.innerHTML = 'The answer is:______';
   }
 
   codeD.addEventListener('click',changeD);

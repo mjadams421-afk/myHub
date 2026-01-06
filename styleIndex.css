@@ -98,6 +98,7 @@ footer #moveA {
 }
 
  footer #moveA:hover {
+  cursor: default;
   font-size: 2rem;
   color: grey;
  }
