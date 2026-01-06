@@ -91,17 +91,13 @@ footer #moveA {
   position: relative;
   top: 500px;
   left: 50px;
-  font-size: 5rem;
+  font-size: 3rem;
   color: white;
-  transition: color 2s ease-in 300ms,
-  font-size 2s ease-in 300ms, 
-  background-color 2s ease-out 300ms, 
-  border 2s ease-out 300ms;
+  transition: color 2s ease-in 1s,
+  font-size 2s ease-in 1s;
 }
 
  footer #moveA:hover {
-  font-size: 4rem;
-  color: black;
-  background-color: yellow;
-  border: solid black 5px;
+  font-size: 2rem;
+  color: grey;
  }
