@@ -51,6 +51,7 @@ figure {
   display: flex;
   width: 100%;
   height: auto;
+  border-radius: 50%;
 }
 
 footer h2 {
@@ -67,7 +68,7 @@ footer h2 {
  background-color 600ms ease-in 200ms;
 }
 
-footer .index {
+footer {
  cursor: pointer; 
 }
 
@@ -94,11 +95,13 @@ footer #moveA {
   font-size: 3rem;
   color: white;
   transition: color 2s ease-in 1s,
-  font-size 2s ease-in 1s;
+  font-size 2s ease-in 1s,
+  text-shadow 2s ease-in 1s;
 }
 
  footer #moveA:hover {
   cursor: default;
   font-size: 2rem;
   color: grey;
+  text-shadow: 4px 4px blueviolet;
  }
