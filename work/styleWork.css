@@ -71,14 +71,15 @@ figdes  {
  font-size: 2rem;
  height: auto;
  position: sticky;
- top: 50px;
- z-index: 3; 
- background-color: lightgrey;
+ top: 0px;
+ z-index: 5; 
+ background-color: darkgray
 }
 
 figdes #left {
  position: relative;
  left: 0%;
+ background-color:
 }
 figdes #right {
  position: relative;
@@ -91,7 +92,7 @@ figureA, figureAB, figureB, figureBC, figureC, figureCA, figureD{
  font-family:Verdana, Geneva, Tahoma, sans-serif;
  width: 100%;
  height: auto;
- border: 10px double black;
+ border: 2px double black;
  position: relative;
  z-index: 3;
  background-color: lightgrey;
