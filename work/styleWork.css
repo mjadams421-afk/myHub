@@ -51,6 +51,14 @@ article {
  background-color: black;
  color: white;
 }
+article a { 
+ color: rgba(52, 207, 235, 1);
+}
+
+article a:hover {
+ color: rgba(52, 207, 0, 0.5);
+}
+
 article p {
  font-size: 15px;
  font-family:'Times New Roman', Times, serif;
