@@ -53,10 +53,13 @@ article {
 }
 article a { 
  color: rgba(52, 207, 235, 1);
+ transition: color 800ms ease-out 300ms, 
+ background-color 800ms ease-out 300ms;
 }
 
 article a:hover {
- color: rgba(52, 207, 0, 0.5);
+ color: rgba(200, 200, 200, 0.8);
+ background-color: rgba(100,100,300,0.1);
 }
 
 article p {
