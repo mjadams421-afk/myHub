@@ -46,10 +46,8 @@ article {
 article ol {
  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  font-size: 1.1rem;
- display: flex;
  position: relative;
- height: auto;
- width: 100%;
+ width: 75%;
  left: 80px;
  border: 5px ridge grey;
 }
