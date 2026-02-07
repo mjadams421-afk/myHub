@@ -15,6 +15,7 @@ header {
  background-color: rgba(120,120,50,0.5);
 }
 
+/*Navigation*/
 nav {
  position: fixed;
  right: -100px;
@@ -33,6 +34,7 @@ nav {
 nav:hover {
  right: 0px;
 }
+
 /*Main Content*/
 article {
  display: inline-block;
@@ -72,6 +74,35 @@ article h2 {
  font-size: 2rem;
  text-align: center;
  text-shadow: 3px 3px 5px violet;
+}
+
+figure {
+ display: inline-block;
+ width: 90%;
+ position: relative;
+ left: 50px;
+ background-color: rgba(189, 189, 17, 0.3);
+ border: 10px ridge rgb(148, 32, 32);
+}
+
+figure h2 {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 2rem;
+ text-align: center;
+ text-shadow: 3px 3px 5px rgb(148, 120, 120);
+}
+
+figure a {
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: 1.5rem;
+ color:rgb(148, 32, 32);
+ transition: color 600ms linear 200ms, 
+ font-size 600ms linear 200ms;
+}
+
+figure a:hover {
+ color: rgb(200, 148, 32);
+ font-size: 1.7rem;
 }
 
 footer {
