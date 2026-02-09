@@ -49,26 +49,15 @@ figure {
   top: 200px;
   z-index: -1;
   display: flex;
-  width: 100%;
+  width: 30%;
   height: auto;
   border-radius: 50%;
-  border: 50px solid;
-  border-image: repeating-linear-gradient(
-    45deg,
-    grey,
-    violet 10px,
-    white 10px,
-    white 20px
-  ) 30;
+  border: 50px solid red;
+  align-content: center;
+  align-items: center;
 }
+
 figure:hover {
-  border-image: repeating-linear-gradient(
-    45deg,
-    blueviolet,
-    violet 10px,
-    white 10px,
-    white 20px
-  ) 30;
   cursor: help;
 }
 
@@ -123,3 +112,25 @@ footer #moveA {
   color: grey;
   text-shadow: 4px 4px blueviolet;
  }
+  footer #moveB {
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 200px;
+    left: 50px;
+    font-size: 1rem;
+    color: white;
+    transition: color 2s ease-in 1s,
+    font-size 2s ease-in 1s,
+    text-shadow 2s ease-in 1s, 
+    transform 2s ease-in 1s;
+  }
+    footer #moveB:hover {
+      cursor: default;
+      font-size: 2rem;
+      color: violet;
+      text-shadow: 4px -4px darkblue;
+      transform: translate(20px, 120px);
+      transform: rotate(180deg);
+    }
