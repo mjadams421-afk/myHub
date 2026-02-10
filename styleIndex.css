@@ -52,9 +52,14 @@ figure {
   width: 30%;
   height: auto;
   border-radius: 50%;
-  border: 50px solid red;
+  padding: 15px 15px;
+  border: 5px solid red;
   align-content: center;
   align-items: center;
+  background-image: url('truck_goingLeft.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 figure:hover {
@@ -92,7 +97,7 @@ footer p {
  height: auto;
 }
 
-footer #moveA {
+ #moveA {
   display: flex;
   width: 100%;
   height: auto;
@@ -106,13 +111,13 @@ footer #moveA {
   text-shadow 2s ease-in 1s;
 }
 
- footer #moveA:hover {
+  #moveA:hover {
   cursor: default;
   font-size: 2rem;
   color: grey;
   text-shadow: 4px 4px blueviolet;
  }
-  footer #moveB {
+   #moveB {
     display: flex;
     width: 100%;
     height: auto;
@@ -126,11 +131,10 @@ footer #moveA {
     text-shadow 2s ease-in 1s, 
     transform 2s ease-in 1s;
   }
-    footer #moveB:hover {
+     #moveB:hover {
       cursor: default;
       font-size: 2rem;
       color: violet;
       text-shadow: 4px -4px darkblue;
       transform: translate(20px, 120px);
-      transform: rotate(180deg);
     }
