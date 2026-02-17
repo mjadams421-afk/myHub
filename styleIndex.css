@@ -97,8 +97,14 @@ footer p {
  height: auto;
 }
 
- #moveA {
+ divA, divB {
   display: flex;
+  width: 100%;
+  height: auto;
+  padding: 80px 80px;
+}
+
+ divA #moveA {
   width: 100%;
   height: auto;
   position: relative;
@@ -111,14 +117,13 @@ footer p {
   text-shadow 2s ease-in 1s;
 }
 
-  #moveA:hover {
+  divA #moveA:hover {
   cursor: default;
   font-size: 2rem;
   color: grey;
   text-shadow: 4px 4px blueviolet;
  }
-   #moveB {
-    display: flex;
+  divB #moveB {
     width: 100%;
     height: auto;
     position: relative;
@@ -131,7 +136,7 @@ footer p {
     text-shadow 2s ease-in 1s, 
     transform 2s ease-in 1s;
   }
-     #moveB:hover {
+    divB #moveB:hover {
       cursor: default;
       font-size: 2rem;
       color: violet;
