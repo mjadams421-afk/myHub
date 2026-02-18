@@ -144,7 +144,7 @@ footer p {
       transform: translate(20px, 120px);
     }
 
-    footer .ButtonA, footer .ButtonB {
+    footer .ButtonA, footer .ButtonB, footer .ButtonC {
      display: inline-block;
      width: 20%;
      height: auto;
@@ -157,7 +157,7 @@ footer p {
      transition: fonssize 600ms linear 200ms, 
      background-color 600ms linear 200ms;
     }
-    footer .ButtonA:hover, footer .ButtonB:hover {
+    footer .ButtonA:hover, footer .ButtonB:hover, footer .ButtonC:hover {
      font-size: 2.2rem;
      background-color: purple;
     }
