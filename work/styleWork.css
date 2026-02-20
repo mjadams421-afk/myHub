@@ -110,7 +110,7 @@ figureA, figureAB, figureB, figureBC, figureC, figureCA, figureD{
 figureA .truck {
  position: relative;
  left: 0%;
- transition: left 15s ease-in 400ms;
+ transition: left 15s ease-in 20ms;
 }
 figureA .truck:active {
  left: 80%;
@@ -118,7 +118,7 @@ figureA .truck:active {
 figureAB .car {
  position: relative;
  left: 0%;
- transition: left 7s ease-in 400ms;
+ transition: left 7s ease-in 20ms;
 }
 figureAB .car:active {
  left: 80%;
@@ -126,7 +126,7 @@ figureAB .car:active {
 figureB .sports {
  position: relative;
  left: 0%;
- transition: left 4.5s ease-in 400ms;
+ transition: left 4.5s ease-in 20ms;
 }
 figureB .sports:active {
  left: 80%;
@@ -134,7 +134,7 @@ figureB .sports:active {
 figureBC .cheetah {
  position: relative;
  left: 0%;
- transition: left 3s ease-in 400ms;
+ transition: left 3s ease-in 20ms;
 }
 figureBC .cheetah:active {
  left: 80%;
@@ -142,7 +142,7 @@ figureBC .cheetah:active {
 figureC .high {
  position: relative;
  left: 0%;
- transition: left 2.5s ease-in 400ms;
+ transition: left 2.5s ease-in 20ms;
 }
 figureC .high:active {
  left: 80%;
@@ -150,7 +150,7 @@ figureC .high:active {
 figureCA .pro {
  position: relative;
  left: 0%;
- transition: left 1s ease-in 400ms;
+ transition: left 1s ease-in 20ms;
 }
 figureCA .pro:active {
  left: 80%;
@@ -158,8 +158,24 @@ figureCA .pro:active {
 figureD .top {
  position: relative;
  left: 0%;
- transition: 500ms ease-in 400ms;
+ transition: 500ms ease-in 20ms;
 }
 figureD .top:active {
+ left: 80%;
+}
+figureF .BMissle {
+ position: relative;
+ left: 0%;
+ transition: left 200ms ease-in 20ms;
+}
+figureF .BMissle:active {
+ left: 80%;
+}
+figureG .ABMissle {
+ position: relative;
+ left: 0%;
+ transition: left 20ms ease-in 20ms;
+}
+figureG .ABMissle:active {
  left: 80%;
 }
