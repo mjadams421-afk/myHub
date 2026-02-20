@@ -1,3 +1,11 @@
+/*resize*/
+@media only screen and (max-width: 1040px) { 
+ nav {
+  top: 50px;
+ }
+}
+
+/*Main styles*/
 header {
  display: block;
  align-content: center;
