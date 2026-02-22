@@ -84,14 +84,18 @@ footer {
      height: auto;
      text-align: center;
      background-color: darkblue;
-     color: white;
+     color: yellow;
      padding: 15px 30px;
      border: 2px solid black;
      font-size: 2rem;
-     transition: font-size 600ms linear 200ms, 
-     background-color 600ms linear 200ms;
+     transition: font-size 600ms ease-in 200ms, 
+     background-color 600ms ease-in 200ms, 
+     color 600ms ease-in 200ms, 
+     box-shadow 600ms ease-in 200ms;
     }
     footer .ButtonA:hover, footer .ButtonB:hover, footer .ButtonC:hover, footer .ButtonD:hover {
      font-size: 2.2rem;
-     background-color: rgba(50,50,100,0.5);
+     background-color: rgba(20,20,20,0.5);
+     box-shadow:0 8px 16px 0 rgba(0,0,100,0.6);
+     color: white;
     }
