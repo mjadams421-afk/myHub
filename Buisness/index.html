@@ -15,6 +15,7 @@
     
     <!--navigation of page-->
     <nav>
+    <p>NAV</p>
       <ul>
         <li>
           <a href="#state"> State file</a>
@@ -40,7 +41,7 @@
           <li> Send money if State or Federal demand is over paid on W-2 w/ additions/subtractions</li>
           <li> Modify witholding from job if needed [As appears on W-2]</li>
         </ol>
-
+       <!--Federal Taxes-->
        <h3> Federal return gets completed first because many State forms use information from the finalized Federal return.</h3>
        <h2 id="fed"> Federal Taxes</h2>
         <p> Federal resources: <a href="https://www.irs.gov/individual-tax-filing" target="_blank"> IRS: help</a>
@@ -49,8 +50,53 @@
         <strong>Form 1040</strong> is the main form used for individual tax return. <em>Complete this form following instructions.</em>
         <mark> Fill out any additional forms as directed from 1040 instructions</mark>
         <br>
-
+      <table>
+        <thead>
+          <tr>
+            <th> Form </th>
+            <th> Purpose </th>
+            <th> Priority</th>
+            <th colsspan="2"> Action </th>
+            <th> Link </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1040</td>
+            <td>Annual income tax return</td>
+            <th><strong>Primary</strong></th>
+            <td>Follow the schedules and instructions for form. 
+            Additional forms will be used with this form including <strong>copyB of the W-2</strong></td>
+            <td><a href="https://www.irs.gov/forms-pubs/about-form-1040" target="_blank">About Form 1040</a></td>
+          </tr>
+          <tr>
+            <td>W-2</td>
+            <td>Report of wages and taxes withheld</td>
+            <th><strong>Primary</strong></th>
+            <td>Use copy B of W-2 to fill out 1040 form. 
+            This form is used to report how much money you made and how much tax was withheld from your paycheck.</td>
+            <td><a href="https://www.irs.gov/forms-pubs/about-form-w-2" target="_blank">About Form W-2</a></td>
+          </tr>
+          <tr>
+            <td>1099-INT & 1099-DIV</td>
+            <td>Report of income from sources other than wages</td>
+            <th>Important Secondary</th>
+            <td>Use 1099 form to report any additional income you received that is not from a job. 
+            This could include interest[1099-INT] or dividends[1099-DIV] from money accounts or freelance work.</td>
+            <td><a href="https://www.irs.gov/forms-pubs/about-form-1099" target="_blank">About Form 1099</a></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="6"> Note: The 1040 form is the main form for filing your federal taxes, and the W-2 and 1099 forms are used to report your income. 
+            It is important to fill out the 1040 form accurately and completely, 
+            using the information from your W-2 and 1099 forms to ensure that you are reporting all of your income correctly.</td>
+          </tr>
+        </tfoot>
+      </table>
+      <br>
        <h3> After Federal return is completed, use information from it to complete State return. </h3>
+       <!--State Taxes-->
        <h2 id="state"> State Taxes</h2>
         <p> State resources: <a href="https://www.tax.ny.gov/" target="_blank"> Department of Tax and Finance: help</a> 
         </p>
@@ -61,7 +107,42 @@
         The bottom of the page shows <strong>Income tax tables</strong> used to 
         determine if you overpaid or are short in money paid to state.</p>
         <br>
-
+      <table>
+        <thead>
+          <tr>
+            <th> Form </th>
+            <th> Purpose </th>
+            <th> Priority</th>
+            <th colsspan="2"> Action </th>
+            <th> Link </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>IT-201</td>
+            <td>Resident income tax return</td>
+            <th><strong>Primary</strong></th>
+            <td>Follow the schedules and instructions for form. 
+            Additional forms will be used with this form <strong>including information from 1040 form.</strong></td>
+            <td><a href="https://www.tax.ny.gov/pit/file/fullyear.htm" target="_blank">About Form IT-201</a></td>
+          </tr>
+            <td>W-2</td>
+            <td>Report of wages and witholding tax</td>
+            <td><strong>Primary</strong></td>
+            <td>Use copy 2 of W-2 to fill out IT-201 form.
+            This form is used to report how much money you made and how much tax was withheld from your paycheck.</td>
+            <td><a href="https://www.irs.gov/forms-pubs/about-form-w-2" target="_blank">About Form W-2</a></td>
+          </tr>
+          <tfoot>
+          <tr>
+            <td colspan="6"> Note: The IT-201 form is the main form for filing your state taxes, and the W-2 form is used to report your income. 
+            It is important to fill out the IT-201 form accurately and completely, 
+            using the information from your W-2 form to ensure that you are reporting all of your income correctly to the state.</td>
+          </tr>
+          </tfoot>
+      </table>
+        <br>
+     <!--Turbo Tax-->
        <h2 id="turbo"> Turbo Tax <em>Tax help</em></h2>
        <p> Turbo Tax resources: <a href="https://turbotax.intuit.com/lp/ppc/4403/?srqs=null&cid=ppc_gg_b_stan_all_control-CoreGeo_Brand-BrandTTCore-TurboTax-Exact_ty25-bu2-sb5_786468741325_58623458533_kwd-26897251&srid=CjwKCAiAs4HMBhBJEiwACrfNZQFdm1UQL0SQsL_hjYQx5S-G7icphRQuoo2xi2CfuRw2nowAGDenMRoC7toQAvD_BwE&targetid=kwd-26897251&skw=turbotax&adid=786468741325&ven=gg&gclsrc=aw.ds&gad_source=1&gad_campaignid=1544912341&gclid=CjwKCAiAs4HMBhBJEiwACrfNZQFdm1UQL0SQsL_hjYQx5S-G7icphRQuoo2xi2CfuRw2nowAGDenMRoC7toQAvD_BwE target="_blank">Turbo Tax help</a></p>
      </article>
@@ -70,7 +151,9 @@
      <figure>
      <h2> Tax Resources</h2>
      <a href="https://legalclarity.org/do-your-state-or-federal-taxes-come-first/"> Order of tax reporting</a>
+     <br>
      <a href="https://taxsharkinc.com/are-you-taxed-on-dividends/"> Using 1099 to pay dividends</a>
+     <br>
      <a href="https://taxsharkinc.com/contact/"> Tax Shark Q & A</a>
      </figure>
 

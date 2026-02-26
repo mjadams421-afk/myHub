@@ -5,7 +5,7 @@ html {
 header {
  display: flex;
  text-align: center;
- font-size: 3rem;
+ font-size: 2.5rem;
  position: relative;
  left: 50px;
  width: 90%;
@@ -76,6 +76,23 @@ article h2 {
  text-shadow: 3px 3px 5px violet;
 }
 
+article table {
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 1.8rem;
+ border: 5px groove black;
+}
+article table a {
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ color: violet;
+ font-size: 2rem;
+ transition: color 500ms ease-in 200ms, 
+ font-size 500ms ease-in 200ms;
+}
+article table a:hover {
+ color: darkblue;
+ font-size: 2.2rem;
+}
+
 figure {
  display: inline-block;
  width: 90%;
@@ -104,6 +121,7 @@ figure a:hover {
  color: rgb(200, 148, 32);
  font-size: 1.7rem;
 }
+
 
 footer {
  position: relative;
