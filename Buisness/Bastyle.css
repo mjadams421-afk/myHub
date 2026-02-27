@@ -78,10 +78,11 @@ article h2 {
 
 article table {
  border: 8px groove black;
- width: 95%;
+ width: 90%;
  height: auto;
  background-color: rgba(100,200,100,0.2);
- align-content: center;
+ margin: 0 auto;
+ display: block;
 }
 article table a {
  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
