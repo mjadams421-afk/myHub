@@ -77,20 +77,45 @@ article h2 {
 }
 
 article table {
- font-family: 'Times New Roman', Times, serif;
- font-size: 1.8rem;
- border: 5px groove black;
+ border: 8px groove black;
+ width: 90%;
+ height: auto;
+ background-color: rgba(100,200,100,0.2);
 }
 article table a {
  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
  color: violet;
- font-size: 2rem;
+ font-size: 1rem;
  transition: color 500ms ease-in 200ms, 
  font-size 500ms ease-in 200ms;
 }
 article table a:hover {
  color: darkblue;
- font-size: 2.2rem;
+ font-size: 1.2rem;
+}
+article table thead th {
+ border: 5px double black;
+ background-color: rgba(100,120,50,0.5);
+ color: black;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: 1.3rem;
+ text-align: center;
+}
+article table tbody td {
+ border: 3px solid black;
+ background-color: rgba(120,120,50,0.5);
+ color: black;
+ font-family:Arial, Helvetica, sans-serif;
+ font-size: 1rem;
+ text-align:justify;
+}
+article table tfoot td {
+ border: 5px dashed black;
+ background-color: rgba(50,120,0,0.5);
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ color: black;
+ font-size: 1.2rem;
+ text-align: justify;
 }
 
 figure {
