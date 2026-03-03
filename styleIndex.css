@@ -123,4 +123,9 @@ footer {
     font-size: 1.5rem;
     padding: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 4px 4px 8px rgba(80,80,120,0.5);
+    }
+
+    table:hover, th:hover, td:hover { 
+      cursor: crosshair;
     }
