@@ -124,7 +124,6 @@ figure {
  display: inline-block;
  width: 90%;
  position: relative;
- left: 50px;
  background-color: rgba(189, 189, 17, 0.3);
  border: 10px ridge rgb(148, 32, 32);
 }
