@@ -126,6 +126,8 @@ figure {
  position: relative;
  background-color: rgba(189, 189, 17, 0.3);
  border: 10px ridge rgb(148, 32, 32);
+ text-decoration-line: overline underline;
+ line-height: 2rem;
 }
 
 figure h2 {
