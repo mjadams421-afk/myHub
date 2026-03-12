@@ -86,7 +86,7 @@ article table {
 }
 article table a {
  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
- color: rgb(80,20,100)
+ color: rgb(80,20,100);
  font-size: 1rem;
  transition: color 500ms ease-in 200ms, 
  font-size 500ms ease-in 200ms;
@@ -118,6 +118,19 @@ article table tfoot td {
  color: black;
  font-size: 1.2rem;
  text-align: justify;
+}
+article ol #turboL {
+ background-color: whitesmoke;
+ font-size: 1.5rem;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ border: 2px solid black;
+ color: black;
+}
+
+article img {
+ position: relative;
+ left: 50px;
+ display: block;
 }
 
 figure {
