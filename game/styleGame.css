@@ -59,6 +59,9 @@ color: black;
 article divA h2 {
 color: black;
 }
+article divA h3 {
+color: black;
+}
 article divA:hover {
  border: 20px groove black;
 }
@@ -80,6 +83,9 @@ article divB h1 {
 color: black;
 }
 article divB h2 {
+color: black;
+}
+article divB h3 {
 color: black;
 }
 article divB:hover {
@@ -106,6 +112,9 @@ color: black;
 article divC h2 {
 color: black;
 }
+article divC h3 {
+color: black;
+}
 
 article divC:hover {
  border: 20px groove black;
@@ -130,6 +139,15 @@ article divD:hover {
  border: 20px groove black;
 }
 
+article divD h1 {
+color: black;
+}
+article divD h2 {
+color: black;
+}   
+article divD h3 {
+color: black;
+}
 
 figure h3 {
  display: block;

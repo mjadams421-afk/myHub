@@ -169,11 +169,31 @@
  <h2><strong> document instructions: </strong></h2>
    <li>
     <ol><h2>'[..] means {..}.' </h2></ol>
+    <ol><h2> '<+...+> means <..>'</h2></ol>
     <ol><h2> * means a note about code </h2></ol>
     <ol><h2> an embelish e.x. <em>text</em> means example filler</h2></ol>
    </li>
    <br>
-
+   <p> > REACT uses JSX elements in a virtual DOM <a href="https://www.codecademy.com/learn/learn-react-introduction/modules/react-101-jsx-u/cheatsheet" target="_blank">Cheatsheet</a></p>
+   <p> > Components for rendering fuctions in other pages <a href="https://www.codecademy.com/learn/learn-react-introduction/modules/learn-react-components/cheatsheet" target="_blank">Cheatsheet</a></p>
+   <p> > Rescources for common components <a href="https://react.dev/reference/react-dom/components/common#common" target="_blank">Common Components</a></p>
+   <p> > Using <em>props</em> parameter to add interactivity across pages <a href="https://www.codecademy.com/learn/learn-react-introduction/modules/react-components-interacting/cheatsheet" target="_blank">Cheatsheet</a></p>
+   <br>
+   <h3> REACT <strong>index.html</strong></h3>
+   <p> + <+ main id='app' +> <+/main+> *Have and empty main element tag with id og app</p>
+   <h3> REACT <strong>index.js</strong></h3>
+   <p> + import [createRoot] from 'react-dom/client'; *Sets up the DOM in index.js</p>
+   <p> + import App from './App'; *Imports the App function from App.js</p>
+   <p> + createRoot(document.getElementById('app')).render(<App />); *Uses inported App function end render it to the App id in index.html</p>
+   <h3> REACT <strong>App.js</strong></h3>
+   <p> + import React from 'react'; *Imports React library</p>
+   <p> + import View function from './first'; *Imports the View function from View.js</p>
+   <p> + function App() [ return ( <+View name='mat' value='2004' +>) ] *Creating the function App to be exported & using the function View from first.js</p>
+   <p> + export default App; *Exports the App function to be used in index.js</p>
+   <h3> REACT <strong>View.js</strong></h3>
+   <p> + import React from 'react'; *Imports React library</p>
+   <p> + function View(props) [ return ( <+div+> <h1>{props.name}</h1> <p>{props.value}</p> <+/div+> ) ] *Creating the View component/function to later define name and value in App.js</p>
+   <p> + export default View; *Exports the View function to be used in App.js</p>
 
  </divD>
 </article>
