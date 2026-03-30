@@ -192,7 +192,7 @@
    <p> + export default App; *Exports the App function to be used in index.js</p>
    <h3> REACT <strong>View.js</strong></h3>
    <p> + import React from 'react'; *Imports React library</p>
-   <p> + function View(props) [ return ( <+div+> <h1>{props.name}</h1> <p>{props.value}</p> <+/div+> ) ] *Creating the View component/function to later define name and value in App.js</p>
+   <p> + function View(props) [ return ( <+div+> {props.name} {props.value} <+/div+> ) ] *Creating the View component/function to later define name and value in App.js</p>
    <p> + export default View; *Exports the View function to be used in App.js</p>
 
  </divD>
