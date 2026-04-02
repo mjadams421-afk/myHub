@@ -13,7 +13,8 @@
 
 <nav>
   <ul>
-   <li><a href="#computer"><h1>Command Prompt (CMD)</h1></a></li>
+   <li><a href="#command"><h1>Command Prompt (CMD)</h1></a></li>
+   <li><a href="#gitBash"><h1>GitBash</h1></a></li>
   </ul>
 </nav>
 
@@ -30,14 +31,29 @@
   </divA>
   <divB id="gitBash">
     <h3> GitBash is used for staging local files to a Git repository</h3>
-    <h4> GitBash basiccommands </h4>
+    <h4> GitBash basic commands </h4>
     <p> + ls + lists files in current directory</p>
     <p> + ls -alt + lists all files with detailed information</p>
     <p> + pwd + displays current directory path</p>
     <p> + cd <em>FolderName</em> + changes directory to specified <em>FolderName</em></p>
     <p> + cd ../ + Moves current directory up one level</p>
     <p> + mkdir <em>FolderName</em> + creates a new directory with the specified <em>FolderName</em></p>
-
+    <p> + touch <em>FileName</em> + creates a new file with the specified <em>FileName</em></p>
+    <p> + cat <em>fileName</em> | wc + pipes filename to output word count </p>
+    <p> + cat <em>fileName</em> <strong> > <em>or</em> >> </strong> <em>destinationFile</em> + <em> > </em>Overwrites contents of file to another file <strong>or</strong> <em> >> </em>appends contents from file to another file</p>
+    <p> + cp <em>sourceFile</em> <em>destinationFile/destinationDirectory</em> + copies contents from one file to another file/directory</p>
+    <h4> GitBash git commands </h4>
+    <p> + git init + initializes a new local Git repository in the current directory</p>
+    <p> + git add <em>fileName</em> + add one or multiple files to the stage</p>
+    <p> + git reset HEAD <em>fileName</em> + removes a file from the stage</p>
+    <p> + git commit -m "<em>commit message</em>" + commits staged changes with a descriptive message</p>
+    <p> + git log + displays the commit history and SHA# of commits</p>
+    <p> + git reset SHA# <em>7 digit code from git log</em> + resets commit from SHA#</p>
+    <p> + git status + displays the current state of the repository, including staged, unstaged, and untracked files</p>
+    <h4> GitBash remote commands </h4>
+    <P> + git remote add origin <em>repositoryURL</em> + adds a remote repository with the specified URL</P>
+    <p> + git branch -M main + renames the current branch to main</p>
+    <p> + git push -u origin main + pushes the main branch to the remote repository and sets it as the upstream branch</p>
   </divB>
    
 </article>
