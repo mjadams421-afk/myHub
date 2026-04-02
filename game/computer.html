@@ -55,6 +55,28 @@
     <p> + git branch -M main + renames the current branch to main</p>
     <p> + git push -u origin main + pushes the main branch to the remote repository and sets it as the upstream branch</p>
   </divB>
+  <divC>
+   <h3> PowerShell is the terminal for Windows operations</h3>
+   <h4> Get commands</h4>
+   <p> + Get-Command + displays all available commands</p>
+   <p> + Get-Command -Verb Get + displays all available Get commands with the specified verb Get</p>
+   <p> + Get-Command -Noun Host + displays all available Host commands</p>
+   <p> + Get-Command -Noun Process + displays all available Process commands</p>
+   <h4> Host commands</h4>
+   <p> + Get-Host + displays information about the host computer</p>
+   <p> + $name = Read-Host "Enter name:" + prompts user to enter a name, which is then stored in a $name variable</p>
+   <p> + Write-Host "Hello, $name!" + displays a greeting message with the entered name</p>
+   <h4> Arrays </h4>
+    <p> + $array = @(1, 2, "number", $False, $name) + creates an array with the specified values</p>
+    <p> + $array[0] + accesses the first element of the array (1)</p>
+    <p> + $array[2,4] + accesses the third and fifth elements of the array ("number" and the value stored in $name)</p>
+    <p> + $array.Length + displays the number of elements in the array</p>
+    <h4> For Each Loop </h4>
+    <p> + $array.ForEach ({$_.length}) + iterates over each element in the array and outputs their length</p>
+    <h4> Objects </h4>
+    <p> + $Variable = [PSCustomObject]@{Property1 = "Value1"; Property2 = "Value2"} + creates a custom object with the specified properties and values</p>
+    <p> + $variable.Property1 + accesses the value of Property1 in the custom object </p>
+  </divC>
    
 </article>
 </html>
