@@ -35,6 +35,11 @@ nav {
 nav .index {
 cursor: pointer;
 }
+
+nav .exIndex {
+cursor: help; 
+}
+
 nav:hover {
 color: rgba(150,150,250,0.8);
 background-color: antiquewhite;
