@@ -134,3 +134,10 @@ footer {
     table:hover, th:hover, td:hover { 
       cursor: crosshair;
     }
+
+    form {
+     border: 3px solid black;
+     align-content: center;
+     align-items: center;
+     width: 50%;
+    }
