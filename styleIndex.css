@@ -141,3 +141,26 @@ footer {
      align-items: center;
      width: 50%;
     }
+
+    form input[type="checkbox"] {
+     width: 50px;
+     height: 50px;
+     margin: 100px 100px;
+    }
+
+    form input[type="submit"] {
+     background-color: black;
+     color: white;
+     padding: 10px 20px;
+     border: none;
+     box-shadow: 0 0 0 0 rgba(0,0,100,0.6);
+     font-size: 1.5rem;
+     transition: color 600ms ease-in 200ms, 
+     box-shadow 600ms ease-in 200ms;
+    }
+
+    form input[type="submit"]:hover {
+     color: yellow;
+     box-shadow:0 8px 16px 0 rgba(0,0,100,0.6);
+     color: white;
+    }
