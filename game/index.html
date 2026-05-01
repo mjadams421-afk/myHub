@@ -156,13 +156,19 @@
    <p> + [script src="script.js"] [/script] *put at and of content to process script id to the JavaScript page</p>
    <p> + [/html] *tag for html</p>
    <h3>Basic Setup JavaScript page: </h3>
-   <p> + element = document.getElementById['link'] *sets the content with id <strong>link</strong> to the variable <strong>element</strong> in JavaScaript page</p>
+   <p> + const element = document.getElementById['link'] *sets the content with id <strong>link</strong> to the variable <strong>element</strong> in JavaScaript page <em>text change</em></p>
+   <p> + const element2 = document.getElementById['link2'] *sets the content with id <strong>link2</strong> to the variable <strong>element2</strong> in JavaScaript page <em>text default</em></p>
    <br>
    <p> + function textChange() [ *name of function</p>
    <p> + element.innerHTML = 'change text'; *Variable <stong>element</stong> uses <strong>innerHTML</strong> to change the text of content</p>
+   <p> + *See <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML" target="_blank">innerHTML Documentation</a>for ways of using innerHTML e.x. strings, variabales, variables assigned to tags as strings, etc.</p>
    <p> + element.style.color = 'blue'; ] *Using <stong>.style</stong> can set color of element by accessing CSS</p>
    <br>
+   <p> + function removeTextChange() </p>
+   <p> + element.innerHTML = 'default text'; *Variable <stong>element</stong> uses <strong>innerHTML</strong> to change back to default text</p>
+   <br>
    <p> + element.addEventListener('click',textChange); *Assigned an event of 'click' for the function textChange </p>
+   <p> + element2.addEventListener('click',removeTextChange); *Assigned an event of 'click' for the function removeTextChange </p>
  </divC>
  <divD id="react">
  <h1> Basic of REACT</h1>
