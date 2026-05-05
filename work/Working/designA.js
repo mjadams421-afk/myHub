@@ -40,9 +40,6 @@ break;
 
 
 
-//input/output for width and depth
-const WD = width(22) + depth(1)
-console.log(WD);
 //Speeds Calcs Add 3 if needed
 const S = Speeds(15,70,75);
 console.log(S);
@@ -94,3 +91,13 @@ console.log(P);
   const L = RoadA.Length;
   console.log(L);
   
+
+
+  //input/output for width and depth
+  const D = depth(1);
+  const W = width(22);
+  const volume = console.log(W + D);
+  
+  //html DOM 
+  document.getElementById('volume').innerHTML = 
+  'Parameters are: ' + volume;
