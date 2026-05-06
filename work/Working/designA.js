@@ -101,3 +101,7 @@ console.log(P);
   //html DOM 
   document.getElementById('volume').innerHTML = 
   'Parameters are: ' + volume;
+
+  const Speeds = document.getElementById('speeds')
+
+  Speeds.addEventListener('click', Speeds);
