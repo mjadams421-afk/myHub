@@ -96,12 +96,12 @@ console.log(P);
   //input/output for width and depth
   const D = depth(1);
   const W = width(22);
-  const volume = console.log(W + D);
+  const volume = W + D;
   
   //html DOM 
   document.getElementById('volume').innerHTML = 
   'Parameters are: ' + volume;
 
-  const Speeds = document.getElementById('speeds')
+  const SpeedsBut = document.getElementById('speeds')
 
-  Speeds.addEventListener('click', Speeds);
+  SpeedsBut.addEventListener('click', Speeds);
