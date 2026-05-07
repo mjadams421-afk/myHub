@@ -29,13 +29,15 @@ const depth = (D) => {
 //Target hit at 1
 const C = 1;
 //Random Generator N% chance at T iterations to equal C number
-const Per = (N,T) => { return
-`Probability of a crash is 1 in ${N} for ${T} months`; }
-for(let x=0;x<T;x++) {
-let Rand = Math.floor(Math.random()*N);
-if (Rand === C) {return `There was an accident at ` + x + ` months`}
-break;
-}
+const Per = (N,T) => {
+  for (let x = 0; x < T; x++) {
+    let Rand = Math.floor(Math.random() * N);
+    if (Rand === C) {
+      return `There was an accident at ${x} months`;
+    }
+  }
+  return `Probability of a crash is 1 in ${N} for ${T} months`;
+};
 
 
 
