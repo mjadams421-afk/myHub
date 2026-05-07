@@ -95,7 +95,9 @@ const Per = (N,T) => {
   //Speeds Calcs Add 3 if needed
   const S = Speeds(15,70,75);
   //Probability of a crash
-  const P = Per(5,20);
+  const P1 = Per(5,20);
+  const P2 = Per(10,20);
+  const P3 = Per(15,20);
  
   
   //html DOM 
@@ -109,13 +111,13 @@ const Per = (N,T) => {
   //Probability of a crash output
  const runScenarioA = document.getElementById('statisticsA')
  function runA() {
-  runScenarioA.innerHTML = P;
+  runScenarioA.innerHTML = P1;
  }
  runScenarioA.addEventListener('mousedown', runA);
- 
+
  const runScenarioB = document.getElementById('statisticsB')
  function runB() {
-  runScenarioB.innerHTML = P;
+  runScenarioB.innerHTML = P2;
  }
  runScenarioB.addEventListener('mousedown', runB);
 
