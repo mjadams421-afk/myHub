@@ -29,24 +29,17 @@ const depth = (D) => {
 //Target hit at 1
 const C = 1;
 //Random Generator N% chance at T iterations to equal C number
-const Per = (N,T) => {
+const Per = (N,T) => {  
   for (let x = 0; x < T; x++) {
     let Rand = Math.floor(Math.random() * N);
     if (Rand === C) {
-      return `There was an accident at ${x} months`;
+      return `There was an accident at ${x} months` + ' | ' + `Probability of a crash is 1 in ${N} for ${T} months`;
+    } else { 
+      return `No accident at ${T} months` + ' | ' + `Probability of a crash is 1 in ${N} for ${T} months`}
     }
-  }
-  return `Probability of a crash is 1 in ${N} for ${T} months`;
 };
 
 
-
-
-
-
-//Speeds Calcs Add 3 if needed
-const S = Speeds(15,70,75);
-console.log(S);
 
 //propertues of the road
  /*
@@ -95,21 +88,26 @@ console.log(S);
   */
 
 
-  //input/output for width, depth and % chance of accident
+  //input/output for width and depth
   const D = depth(1);
   const W = width(22);
   const volume = W + D;
+  //Speeds Calcs Add 3 if needed
+  const S = Speeds(15,70,75);
+  //Probability of a crash
   const P = Per(10,20);
+ 
   
   //html DOM 
+  //Width & depth output
   document.getElementById('volume').innerHTML = 
   'Parameters are: ' + volume;
+  //Speeds output
+ document.getElementById('speeds').innerHTML = S;
+  //Probability of a crash output
+ const runScenario = document.getElementById('statistics')
+ function run() {
+  runScenario.innerHTML = P;
+ }
+ runScenario.addEventListener('mousedown', run);
 
-  const SpeedsBut = document.getElementById('speeds')
-
-  SpeedsBut.addEventListener('mousedown', () => {
-    const result = Speeds(15,70,75);
-    SpeedsBut.innerHTML = result;
-  });
-
- document.getElementById('statistics').innerHTML = `Probability is: ` + P;
