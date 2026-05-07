@@ -95,19 +95,34 @@ const Per = (N,T) => {
   //Speeds Calcs Add 3 if needed
   const S = Speeds(15,70,75);
   //Probability of a crash
-  const P = Per(10,20);
+  const P = Per(5,20);
  
   
   //html DOM 
   //Width & depth output
   document.getElementById('volume').innerHTML = 
   'Parameters are: ' + volume;
+
   //Speeds output
  document.getElementById('speeds').innerHTML = S;
+
   //Probability of a crash output
- const runScenario = document.getElementById('statistics')
- function run() {
-  runScenario.innerHTML = P;
+ const runScenarioA = document.getElementById('statisticsA')
+ function runA() {
+  runScenarioA.innerHTML = P;
  }
- runScenario.addEventListener('mousedown', run);
+ runScenarioA.addEventListener('mousedown', runA);
+ 
+ const runScenarioB = document.getElementById('statisticsB')
+ function runB() {
+  runScenarioB.innerHTML = P;
+ }
+ runScenarioB.addEventListener('mousedown', runB);
+
+ const runScenarioC = document.getElementById('statisticsC')
+ function runC() {
+  runScenarioC.innerHTML = P;
+ }
+ runScenarioC.addEventListener('mousedown', runC);
+
 
