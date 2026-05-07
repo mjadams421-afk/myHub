@@ -14,7 +14,7 @@ const depth = (D) => {
 //Speed Calulations design speeds for an array of posted speeds
  const NYmph= [25,30,40,55,65];
  //Speeds to add
- function Speeds(A,B,C) {
+ const Speeds = (A,B,C) => {
   NYmph.push(A,B,C);
   NYmph.sort();
   const High = NYmph.filter(y => {return y >= 55});
@@ -104,4 +104,4 @@ console.log(P);
 
   const SpeedsBut = document.getElementById('speeds')
 
-  SpeedsBut.addEventListener('click', Speeds);
+  SpeedsBut.addEventListener('mousedown', () => Speeds(15,70,75));
