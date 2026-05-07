@@ -21,33 +21,33 @@ const depth = (D) => {
   const Street = NYmph.filter(z => {return z < 55});
   const SDes = Street.map(s => {return s+5 });
   const HDes = High.map(h => {return h+7});
-  console.log('Posted MPH speeds: ' + NYmph + ' ' + '| Street design speeds: '+ SDes + '| Highway design speeds: '+ HDes);
+  const result = 'Posted MPH speeds: ' + NYmph + ' | Street design speeds: '+ SDes + ' | Highway design speeds: '+ HDes;
+  console.log(result);
+  return result;
  };
 //Accident chance 
 //Target hit at 1
 const C = 1;
 //Random Generator N% chance at T iterations to equal C number
-const Per = (N,T) => {
-console.log(`Probability of a crash is 1 in ${N} for ${T} months`)
+const Per = (N,T) => { return
+`Probability of a crash is 1 in ${N} for ${T} months`; }
 for(let x=0;x<T;x++) {
 let Rand = Math.floor(Math.random()*N);
-if (Rand === C) {console.log(`There was an accident at ` + x + ` months`)
+if (Rand === C) {return `There was an accident at ` + x + ` months`}
 break;
 }
-};
 
-}
+
+
 
 
 
 //Speeds Calcs Add 3 if needed
 const S = Speeds(15,70,75);
 console.log(S);
-//input for accident chance set N prob and T months tested
-const P = Per(10,20);
-console.log(P);
 
 //propertues of the road
+ /*
  console.log('Road Properties:=============>')
   const RoadA={
    _type: 'Concrete',
@@ -90,13 +90,14 @@ console.log(P);
   console.log(Tp);
   const L = RoadA.Length;
   console.log(L);
-  
+  */
 
 
-  //input/output for width and depth
+  //input/output for width, depth and % chance of accident
   const D = depth(1);
   const W = width(22);
   const volume = W + D;
+  const P = Per(10,20);
   
   //html DOM 
   document.getElementById('volume').innerHTML = 
@@ -104,4 +105,9 @@ console.log(P);
 
   const SpeedsBut = document.getElementById('speeds')
 
-  SpeedsBut.addEventListener('mousedown', () => Speeds(15,70,75));
+  SpeedsBut.addEventListener('mousedown', () => {
+    const result = Speeds(15,70,75);
+    SpeedsBut.innerHTML = result;
+  });
+
+ document.getElementById('statistics').innerHTML = `Probability is: ` + P;
