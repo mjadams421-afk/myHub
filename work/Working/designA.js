@@ -137,4 +137,13 @@ const Per = (N,T) => {
  }
  runScenarioC.addEventListener('mousedown', runC);
 
+ //Reset button for statistics
+ const Reset = document.getElementById('reset')
+
+  function reset() {
+    runScenarioA.innerHTML = 'Click to get probabilities of a crashA';
+    runScenarioB.innerHTML = 'Click to get probabilities of a crashB';
+    runScenarioC.innerHTML = 'Click to get probabilities of a crashC';
+  }
+ Reset.addEventListener('mousedown', reset);
 

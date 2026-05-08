@@ -34,3 +34,16 @@
  article #statisticsA:hover, article #statisticsB:hover, article #statisticsC:hover {
   font-size: 2rem;
  }
+
+ article #reset {
+  font-size: 2.5rem;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  transition: font-size 800ms ease-in 200ms,  border 800ms ease-in 200ms;
+  border: 5px solid white;
+ }
+
+ article #reset:hover {
+  font-size: 2.7rem;
+  border: 5px dotted white;
+  cursor: pointer;
+ }
