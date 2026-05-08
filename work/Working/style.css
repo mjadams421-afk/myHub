@@ -24,3 +24,13 @@
   font-size: 1.7rem;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
  }
+
+ article #statisticsA, article #statisticsB, article #statisticsC {
+  font-size: 1.8rem;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  transition: font-size 800ms ease-in 200ms;
+ }
+
+ article #statisticsA:hover, article #statisticsB:hover, article #statisticsC:hover {
+  font-size: 2rem;
+ }

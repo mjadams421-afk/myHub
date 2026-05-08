@@ -89,9 +89,15 @@ const Per = (N,T) => {
 
 
   //input/output for width and depth
-  const D = depth(1);
-  const W = width(22);
-  const volume = W + D;
+  const D1 = depth(2);
+  const W1 = width(22);
+  const volume1 = W1 + D1;
+  const D2 = depth(1.9);
+  const W2 = width(21);
+  const volume2 = W2 + D2;
+  const D3 = depth(1.8);
+  const W3 = width(20);
+  const volume3 = W3 + D3;
   //Speeds Calcs Add 3 if needed
   const S = Speeds(15,70,75);
   //Probability of a crash
@@ -102,9 +108,13 @@ const Per = (N,T) => {
   
   //html DOM 
   //Width & depth output
-  document.getElementById('volume').innerHTML = 
-  'Parameters are: ' + volume;
-
+  document.getElementById('volumeA').innerHTML = 
+  'Parameters are: ' + volume1;
+  document.getElementById('volumeB').innerHTML =
+  'Paramters are: ' + volume2;
+  document.getElementById('volumeC').innerHTML =
+  'Parameters are: ' + volume3;
+ 
   //Speeds output
  document.getElementById('speeds').innerHTML = S;
 
@@ -123,7 +133,7 @@ const Per = (N,T) => {
 
  const runScenarioC = document.getElementById('statisticsC')
  function runC() {
-  runScenarioC.innerHTML = P;
+  runScenarioC.innerHTML = P3;
  }
  runScenarioC.addEventListener('mousedown', runC);
 
