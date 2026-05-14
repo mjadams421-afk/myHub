@@ -22,10 +22,10 @@ nav {
   border: solid black 8px;
   display: inline-flex;
   width: 50%;
-  height: auto;
+  height: 200px;
   position: sticky;
   z-index: 1;
-  top: 50px;
+  top: 0px;
   font-family: arial black;
   font-size: 1rem;
   transition: color 600ms linear 300ms, 
@@ -44,6 +44,7 @@ nav:hover {
 color: rgba(150,150,250,0.8);
 background-color: antiquewhite;
 font-size: 1.5rem;
+height: auto;
 } 
 nav p {
 color: black;
@@ -123,15 +124,29 @@ footer {
      color: white;
     }
 
-    table, th, td {
+    table {
+     position: relative;
+     display: flex;
+     width: 90%;
+     height: auto;
+    }
+
+    table td {
     border: 5px solid grey;
     font-size: 1.5rem;
     padding: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: 4px 4px 8px rgba(80,80,120,0.5);
     }
+    table th {
+     font-size: 1.8rem;
+     padding: 5px;
+     font-family:'Times New Roman', Times, serif;
+     text-shadow: 8px 8px 16px rgba(40,40,60,0.5);
+    }
 
-    table:hover, th:hover, td:hover { 
+
+    table td:hover { 
       cursor: crosshair;
     }
 

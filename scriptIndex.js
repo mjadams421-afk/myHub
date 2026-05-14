@@ -1,16 +1,39 @@
-const movingText = document.getElementById("moveA");
+//Setting variables
+const Casual = document.getElementById('casual');
+const Bussy = document.getElementById('bussy');
+const Fast = document.getElementById('fast');
 
-function randomRGB() {
-  const r = Math.floor(Math.random() * 150);
-  const g = Math.floor(Math.random() * 256);
-  const b = Math.floor(Math.random() * 256);
-  return `rgb(${r}, ${g}, ${b})`;
-}
-function textChange (randomRGB) {
-   movingText.innerHTML = "You clicked me";
-   movingText.style.fontSize = "6rem";
-   movingText.style.color = "randomRGB()";
-   movingText.style.backgroundColor = "grey";
+//functions
+const walking = (type,speed) => {
+const speedMPH = speed*1.47;
+const CSpeed = speed-5;
+const CSpeedMPH = CSpeed*1.47;
+const BSpeed = speed-3;
+const BSpeedMPH = BSpeed*1.47;
+ if(type==="casual"){
+return "Casual speed is: " + CSpeed + " ft/s  " + CSpeedMPH + " mph"} 
+else if(type==="bussy"){
+return "Bussy speed is: " + BSpeed + " ft/s  " + BSpeedMPH + " mph"}
+else if(type==="fast"){
+return "Fast speed is: " + speed + " ft/s  " + speedMPH + " mph"
+} else {return `${type} speed is: ${speed} ft/s  ${speedMPH} mph` }
 }
 
-movingText.addEventListener("click", textChange);
+//Setting Interaction
+const CasualS = walking("casual",8);
+const BussyS = walking("bussy",8);
+const FastS = walking("fast",8);
+
+function DisCasual() {
+ Casual.innerHTML = CasualS;
+}
+function DisBussy() {
+ Bussy.innerHTML = BussyS;
+}
+function DusFast() {
+ Fast.innerHTML = FastS;
+}
+
+Casual.addEventListener('mousedown',DisCasual);
+Bussy.addEventListener('mousedown',DisBussy);
+Fast.addEventListener('mousedown',DisFast);
