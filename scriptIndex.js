@@ -30,7 +30,7 @@ function DisCasual() {
 function DisBussy() {
  Bussy.innerHTML = BussyS;
 }
-function DusFast() {
+function DisFast() {
  Fast.innerHTML = FastS;
 }
 
