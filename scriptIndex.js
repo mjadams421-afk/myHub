@@ -2,7 +2,7 @@
 const Casual = document.getElementById('casual');
 const Bussy = document.getElementById('bussy');
 const Fast = document.getElementById('fast');
-
+const Reset = document.getElementById('reset');
 //functions
 const walking = (type,speed) => {
 const speedMPH = speed*1.47;
@@ -33,7 +33,13 @@ function DisBussy() {
 function DisFast() {
  Fast.innerHTML = FastS;
 }
-
+function DisReset() {
+ Casual.innerHTML = "Casual";
+ Bussy.innerHTML = "Bussy";
+ Fast.innerHTML = "Fast";
+}
+//Adding Event Listeners
 Casual.addEventListener('mousedown',DisCasual);
 Bussy.addEventListener('mousedown',DisBussy);
 Fast.addEventListener('mousedown',DisFast);
+Reset.addEventListener('mousedown',DisReset);
