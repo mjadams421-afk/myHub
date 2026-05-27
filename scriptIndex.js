@@ -121,3 +121,4 @@ Age1.addEventListener('mousedown',DisAge1);
 Age2.addEventListener('mousedown',DisAge2);
 Age3.addEventListener('mousedown',DisAge3);
 Reset.addEventListener('mousedown',DisReset);
+}

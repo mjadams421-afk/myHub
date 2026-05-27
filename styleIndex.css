@@ -140,6 +140,7 @@ footer {
     text-shadow: 4px 4px 8px rgba(80,80,120,0.5);
     }
     table th {
+     border: 5px solid blue;
      font-size: 1.8rem;
      padding: 5px;
      font-family:'Times New Roman', Times, serif;
