@@ -122,9 +122,9 @@
   // JavaScript code for handling user interactions
   let number = prompt("Enter a number:", "0");
   if (number !== null) {
-    alert("You entered: " + number);
+    document.getElementById("enterData").innerHTML = "You entered: " + number;
   } else {
-    alert("No number entered.");
+    document.getElementById("enterData").innerHTML = "No number entered.";
   }
 </script>
 
