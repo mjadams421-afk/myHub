@@ -109,7 +109,6 @@ function DisReset() {
  Age3.innerHTML = "70";
 }
 
-function DisCar() {
 //Adding Event Listeners
 Casual.addEventListener('mousedown',DisCasual);
 Bussy.addEventListener('mousedown',DisBussy);
@@ -121,4 +120,3 @@ Age1.addEventListener('mousedown',DisAge1);
 Age2.addEventListener('mousedown',DisAge2);
 Age3.addEventListener('mousedown',DisAge3);
 Reset.addEventListener('mousedown',DisReset);
-}
