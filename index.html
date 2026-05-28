@@ -118,22 +118,20 @@
 <p>...</p>
 <p id="enterData">Enter Data</p>
 <p id="enterText">Enter Text</p>
+<button id="showPromptsBtn" type="button">Show both prompts</button>
 <p>...</p>
 <script>
-  // JavaScript code for handling user interactions
-  let number = prompt("Enter a number:", "0");
-  if (number !== null) {
-    document.getElementById("enterData").innerHTML = "You entered: " + number;
-  } else {
-    document.getElementById("enterData").innerHTML = "No number entered.";
+  function showBothPrompts() {
+    const number = window.prompt("Enter a number:", "0");
+    document.getElementById("enterData").textContent =
+      number === null ? "No number entered." : "You entered: " + number;
+
+    const text = window.prompt("Enter your name:", "No name");
+    document.getElementById("enterText").textContent =
+      text === null ? "No name entered." : "Hello, " + text;
   }
-  let text = prompt("Enter your name:", "No name");
-  if (text !== null) {
-  document.getElementById("enterText").innerHTML = "Hello, " + text;
-  } else {
-    document.getElementById("enterText").innerHTML = "No name entered " + text;
-  }
-  
+
+  document.getElementById("showPromptsBtn").addEventListener("click", showBothPrompts);
 </script>
 
 </footer>
