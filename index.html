@@ -117,6 +117,7 @@
 
 <p>...</p>
 <p id="enterData">Enter Data</p>
+<p id="enterText">Enter Text</p>
 <p>...</p>
 <script>
   // JavaScript code for handling user interactions
@@ -126,6 +127,13 @@
   } else {
     document.getElementById("enterData").innerHTML = "No number entered.";
   }
+  let text = prompt("Enter your name:", "No name");
+  if (text !== null) {
+  document.getElementById("enterText").innerHTML = "Hello, " + text;
+  } else {
+    document.getElementById("enterText").innerHTML = "No name entered " + text;
+  }
+  
 </script>
 
 </footer>
