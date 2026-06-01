@@ -125,9 +125,9 @@ footer {
      color: white;
     }
 
-    table {
+    table thead, table tbody {
      position: relative;
-     display: flex;
+     display: inline-flex;
      width: 90%;
      height: auto;
     }
