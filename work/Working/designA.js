@@ -147,3 +147,19 @@ const Per = (N,T) => {
   }
  Reset.addEventListener('mousedown', reset);
 
+//Kinetic Energy Variables 
+//Button and Response variables
+  const buttonB = document.getElementById('buttonB');
+  const responseB = document.getElementById('responseB')
+  //function for KE
+  function KEnergy () {
+   const MPH = window.prompt('Enter Speed in mph');
+   const Ma = window.prompt('Enter mass in lbm');
+   const FPS = MPH/1.47;
+   const slugs = Ma/32.2
+   let answer ='The Kinetic energy in (ft-lb) is '; 
+   if(MPH > 0 && Ma > 0) { answer += 0.5*slugs*(FPS*FPS)} else (answer += '| not valid inputs')    
+   responseB.innerHTML = answer;
+  }
+  //Add Event listener for button
+  buttonB.addEventListener('mousedown', KEnergy);
