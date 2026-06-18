@@ -158,7 +158,7 @@ const Per = (N,T) => {
    const FPS = MPH/1.47;
    const slugs = Ma/32.2
    let answer ='The Kinetic energy in (ft-lb) is '; 
-   if(MPH > 0 && Ma > 0) { answer += 0.5*slugs*(FPS*FPS)} else (answer += '| not valid inputs')    
+   if(MPH > 0 && Ma > 0) { answer += Math.round(0.5*slugs*(FPS*FPS))} else (answer += '| not valid inputs')    
    responseB.innerHTML = answer;
   }
   //Add Event listener for button
