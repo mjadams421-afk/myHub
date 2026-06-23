@@ -120,3 +120,10 @@ Age1.addEventListener('mousedown',DisAge1);
 Age2.addEventListener('mousedown',DisAge2);
 Age3.addEventListener('mousedown',DisAge3);
 Reset.addEventListener('mousedown',DisReset);
+
+//button for random response
+const BTR = document.getElementById('BTR');
+const AnswerA = document.getElementById('AnswerA');
+function RandomR() {
+const number = window.prompt("Enter a number between 1 - 10");
+}
