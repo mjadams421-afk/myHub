@@ -51,6 +51,38 @@ nav p {
 color: black;
 font-size: 1rem;
 }
+
+figure button {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: auto;
+  top: 100px;
+  left: 50px;
+  font-size: 3rem;
+  color: white;
+  background-color: black;
+}
+
+figure h2 {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: auto;
+  top: 100px;
+  left: 50px;
+  font-size: 3rem;
+  color: white;
+  background-color: black;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
 figure #moveA, figure #moveB {
   position: relative;
   display: flex;
@@ -61,12 +93,9 @@ figure #moveA, figure #moveB {
   left: 50px;
   font-size: 3rem;
   color: white;
-  transition: color 2s ease-in 1s,
-  font-size 2s ease-in 1s,
-  text-shadow 2s ease-in 1s;
-  align-content: center;
-  align-items: center;
 }
+
+
 
 figure #moveA:hover, figure #moveB:hover {
   cursor: default;
