@@ -55,13 +55,14 @@ font-size: 1rem;
 figure button {
   position: relative;
   display: flex;
-  width: 100%;
+  width: 50%;
   height: auto;
   top: 100px;
   left: 50px;
   font-size: 3rem;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: rgb(231, 224, 224);
+  border: 5px solid black;
 }
 
 figure h2 {
@@ -71,16 +72,11 @@ figure h2 {
   height: auto;
   top: 100px;
   left: 50px;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: white;
   background-color: black;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-
-
-
-
 
 
 figure #moveA, figure #moveB {

@@ -124,15 +124,17 @@ Reset.addEventListener('mousedown',DisReset);
 //button for random response
 const BTR = document.getElementById('BTR');
 const AnswerA = document.getElementById('AnswerA');
-const RanNum = Math.floor(Math.random() * 10) + 1;
-let ReturnA = "You are feeling "
+
+
 function RandomR() {
 const number = window.prompt("Enter a number between 1 - 10");
+let RanNum = Math.floor(Math.random() * 10) + 1;
+let ReturnA = "You are feeling:"
 if (number >= 1 && number <= 10) { 
- if (number == RanNum) { ReturnA += "Happy as ever"}
- else if (number < RanNum) { ReturnA += "A liitle upset"}
- else if (number > RanNum) { ReturnA += "A little tired"}
- else { ReturnA += "You are feeling confused"}
+ if (number == RanNum) { ReturnA += " Happy as ever, the number to hit was "+ RanNum}
+ else if (number < RanNum) { ReturnA += " A little upset, the number to beat was "+ RanNum}
+ else if (number > RanNum) { ReturnA += " A little tired, the number to beat was "+ RanNum}
+ else { ReturnA += " You are feeling confused"}
 }
 AnswerA.innerHTML = ReturnA;
 }
