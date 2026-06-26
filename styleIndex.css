@@ -64,11 +64,12 @@ figure button {
   color: black;
   background-color: rgb(231, 224, 224);
   border: 5px solid black;
-  transition: color 800ms linear 200ms, background-color 1.2s linear 200ms;
+  transition: color 800ms linear 200ms, background-color 1.2s linear 200ms,border 1.2s linear 200ms;
 }
 figure button:hover {
  color: rgb(231, 224, 224);
  background-color: black;
+ border: 5px ridge rgb(231, 224, 224);
 }
 
 figure h2 {
