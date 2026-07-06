@@ -131,7 +131,10 @@ const number = window.prompt("Enter a number between 1 - 10");
 let RanNum = Math.floor(Math.random() * 10) + 1;
 let ReturnA = "You are feeling:"
 if (number >= 1 && number <= 10) { 
- if (number == RanNum) { ReturnA += " Happy as ever, the number to hit was "+ RanNum}
+ if (number == RanNum) { ReturnA += " Happy as ever, the number to hit was "+ RanNum +" YOU WWWWWWWWWWWWWIIIIIIIIIIIIIIIIIIIINNNNNNNNNNNNNNNNNN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
+ AnswerA.style.color = black;
+ AnswerA.style.backgroundColor = yellow;
+ }
  else if (number < RanNum) { ReturnA += " A little upset, the number to beat was "+ RanNum}
  else if (number > RanNum) { ReturnA += " A little tired, the number to beat was "+ RanNum}
  else { ReturnA += " You are feeling confused"}
