@@ -42,19 +42,15 @@ article {
  border: 2px solid black;
 }
 
-article h3 {
- position: relative;
- display: block;
- top: 100px;
- font-size: 2rem;
- color: black;
- background-color: aqua;
- transition: color 800ms ease-in 200ms, background-color 800ms ease-in 200ms;
-}
 
-article h3:hover {
- color: aqua;
- background-color: black;
+article #heading {
+display: flex;
+width: 100%;
+height: auto;
+font-size: 4rem;
+color: yellow;
+background-color: black;
+border: yellowgreen; 
 }
 
 article divA {
