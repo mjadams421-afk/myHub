@@ -173,6 +173,20 @@ article divE h1 {
 article diveE h1:hover {
  color: red;
 }
+
+article divF {
+ color: blue;
+ background-color: black;
+ border: blue;
+ transition: color 1s linear 200ms, background-color 750ms linear 200ms;
+}
+
+article divF:hover {
+ color: black;
+ background-color: blue;
+ border: black;
+}
+
 figure h3 {
  display: block;
  opacity: 80%;
