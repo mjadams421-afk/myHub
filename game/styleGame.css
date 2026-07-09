@@ -175,6 +175,10 @@ article diveE h1:hover {
 }
 
 article divF {
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ height: auto;
  color: blue;
  background-color: black;
  border: blue;
