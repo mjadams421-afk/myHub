@@ -159,7 +159,7 @@ article divE {
 display: inline-block;
 color: rgb(200, 50, 150);
 background-color: rgb(250,250,250);
-font-size: 3rem;
+font-size: 3.1rem;
 height: auto;
 position: relative;
 border: 5px groove rgb(200,50,150);
@@ -177,18 +177,19 @@ article diveE h1:hover {
 article divF {
  display: flex;
  flex-direction: column;
+ font-size: 3.5rem;
  width: 100%;
  height: auto;
  color: blue;
  background-color: black;
- border: blue;
- transition: color 1s linear 200ms, background-color 750ms linear 200ms;
+ border: 10px solid blue;
+ transition: color 1s linear 200ms, background-color 750ms ease-in 200ms;
 }
 
 article divF:hover {
  color: black;
  background-color: blue;
- border: black;
+ border: 10px groove black;
 }
 
 figure h3 {
