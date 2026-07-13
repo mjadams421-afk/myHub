@@ -39,7 +39,42 @@ function PTravel() {
    speed += 500;
   } }
 //.40 - .50 power jet adjustment
-
+if(prop === 'jet' && PW >= 100000) {
+ if(PWtoWT >= 0.4 && PWtoWT < 0.5) {
+   speed += 500;
+ } }
+if (prop === 'jet' && PW >= 200000) {
+  if(PWtoWT >= 0.4 && PWtoWT < 0.5) {
+    speed += 500;
+  } }
+//.50 - .60 Power jet adjustment
+if (prop === 'jet' && PW >= 10000) {
+  if(PWtoWT >= 0.5 && PWtoWT < 0.6) {
+    speed += 250;
+  } }
+if(prop === 'jet' && PW >= 20000) {
+  if(PWtoWT >= 0.5 && PWtoWT < 0.6) {
+    speed += 250;
+  } }
+  //.60 - .70 power jet adjustment
+  if(prop === 'jet' && PW >= 40000) {
+   if(PWtoWT >= 0.6 && PWtoWT < 0.7) {
+    speed += 200;
+  } }
+  if(prop === 'jet' && PW >= 60000) {
+    if(PWtoWT >= 0.6 && PWtoWT < 0.7) {
+      speed += 200;
+  } }
+  //.70 - .80 power jet adjustment
+  if(prop === 'jet' && PW >= 50000) {
+    if(PWtoWT >= 0.7 && PWtoWT < 0.8) {
+      speed += 150;
+    } }
+  //.80 - .90 power jet adjustment 
+  if(prop === 'jet' && PW >= 60000) {
+    if(PWtoWT >= 0.8 && PWtoWT < 0.9) {
+      speed += 100;
+    } }
  
  rangeA = speed * t;
 //Adding to range based on year built
