@@ -4,7 +4,7 @@ const buttonA = document.getElementById('buttonA')
 const returnA = document.getElementById('returnA')
 
 function PTravel() {
- //Prompts
+ //Prompts Goal is to find distance
  const prop = window.prompt('Type in piston or jet')
  const PW = Number(window.prompt('Type in aircraft power in hp if piston or thrust in lbs if jet'))
  const WT = Number(window.prompt('Type in aircraft weight in lbs'))
@@ -16,18 +16,31 @@ function PTravel() {
  let speed = 0;
  //Getting speed based on type of aircraft and power to weight ratio
  if(prop === 'jet') { 
-  if(PWtoWT > 0.7 && t < 1) { speed += 1700} 
-  else if (PWtoWT > 0.7 && t >= 1) { speed += 1200} 
-  else if (PWtoWT > 0.6 && t < 1) { speed += 1400}
-  else if (PWtoWT > 0.6 && t >= 1) { speed += 900}
-  else if (PWtoWT > 0.5 && t < 1) { speed += 800}
-  else if (PWtoWT > 0.5 && t >= 1) { speed += 500}
-  else if (PWtoWT > 0.25 && t < 1) { speed += 550}
-  else if (PWtoWT > 0.25 && t >= 1) { speed += 300}
-  else if (PWtoWT <= 0.25) { speed += 0}
-  else {rangeA = 'Enter correct values of Type and or Weight'}
+  if(PWtoWT < 0.9 && PWtoWT >= 0.8) { speed += 1500} 
+  else if (PWtoWT < 0.8 && PWtoWT >= 0.7) { speed += 1450} 
+  else if (PWtoWT < 0.7 && PWtoWT >= 0.6) { speed += 1400}
+  else if (PWtoWT < 0.6 && PWtoWT >= 0.5) { speed += 1000}
+  else if (PWtoWT < 0.5 && PWtoWT >= 0.4) { speed += 600}
+  else if (PWtoWT < 0.4 && PWtoWT >= 0.3) { speed += 550}
+  else if (PWtoWT < 0.3 && t >= 0.2) { speed += 500}
+  else if (PWtoWT < 0.2 && PWtoWT >= 0.1) { speed += 300}
+  else if (PWtoWT < 0.1) { speed += 200}
+  else {speed += 'Enter correct values for power and or Weight'}
  }
- else {rangeA = 'Enter correct values of Type and or Weight'}
+ else {speed += 0}
+
+//.30 - .40 Power jet adjustmanet
+ if(prop === 'jet' && PW >= 100000) {
+  if(PWtoWT >= 0.3 && PWtoWT < 0.4) {
+   speed += 500;
+  } }
+ if(prop === 'jet' && PW >= 200000) {
+  if(PWtoWT >= 0.3 && PWtoWT < 0.4) {
+   speed += 500;
+  } }
+//.40 - .50 power jet adjustment
+
+ 
  rangeA = speed * t;
 //Adding to range based on year built
  if ( T > 1980 ) { rangeB += 1000 }
