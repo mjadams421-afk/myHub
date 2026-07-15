@@ -86,6 +86,27 @@ if(prop === 'piston') {
  }
  else { speed += 0; }
  
+ //0.0 - 0.1 power piston adjustment
+ if(prop === 'piston'&& PW >= 750) {
+  if(PWtoWT >= 0.0 && PWtoWT < 0.1) {
+   speed += 100;
+  } }
+ if(prop === 'piston' && PW >= 1500) {
+  if(PWtoWT >= 0.0 && PWtoWT < 0.1) {
+    speed += 175;
+  } }
+
+ //0.1 - 0.2 power piston adjustment
+ if(prop === 'piston' && PW >= 1750) {
+  if(PWtoWT >= 0.1 && PWtoWT < 0.2) {
+    speed += 75;
+  } }
+
+ //0.2 - 0.3 power piston adjustment
+ if(prop === 'piston' && PW >= 1000) {
+  if(PWtoWT >= 0.2 && PWtoWT < 0.3) {
+    speed += 50;
+  } }
 
 //Adding to range based on year built
  if ( T > 1980 ) { rangeB += 1000 }
