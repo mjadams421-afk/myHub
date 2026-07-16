@@ -79,10 +79,11 @@ if(prop === 'jet' && PW >= 20000) {
 
 //Getting speed on piston type aircraft with power to weight ratio
 if(prop === 'piston') {
- if(PWtoWT >= 0.2 && PWtoWT < 0.3) {speed += 300; }
- else if(PWtoWT >= 0.1 && PWtoWT < 0.2) {speed += 200; }
- else if(PWtoWT >= 0 && PWtoWT < 0.1) {speed += 100; }
- else { speed += 350;} 
+ if(PWtoWT >= 0.3 && PWtoWT < 0.4) {speed += 400}
+ else if(PWtoWT >= 0.2 && PWtoWT < 0.3) {speed += 300}
+ else if(PWtoWT >= 0.1 && PWtoWT < 0.2) {speed += 200}
+ else if(PWtoWT >= 0 && PWtoWT < 0.1) {speed += 100}
+ else { speed += 500} 
  }
  else { speed += 0; }
  
@@ -93,7 +94,15 @@ if(prop === 'piston') {
   } }
  if(prop === 'piston' && PW >= 1500) {
   if(PWtoWT >= 0.0 && PWtoWT < 0.1) {
-    speed += 175;
+    speed += 75;
+  } }
+  if(prop === 'piston' && PW >= 10000) {
+    if(PWtoWT >= 0.0 && PWtoWT < 0.1) {
+      speed += 35;
+  } }
+  if(prop === 'piston' && PW >= 20000) {
+    if(PWtoWT >= 0.0 && PWtoWT < 0.1) {
+      speed += 40;
   } }
 
  //0.1 - 0.2 power piston adjustment
@@ -101,7 +110,15 @@ if(prop === 'piston') {
   if(PWtoWT >= 0.1 && PWtoWT < 0.2) {
     speed += 75;
   } }
-
+ if(prop === 'piston' && PW >= 8000) {
+  if(PWtoWT >= 0.1 && PWtoWT < 0.2) {
+    speed += 100;
+  } }
+  if(prop === 'piston' && PW >= 15000) {
+    if(PWtoWT >= 0.1 && PWtoWT < 0.2) {
+      speed += 75;
+  } }
+  
  //0.2 - 0.3 power piston adjustment
  if(prop === 'piston' && PW >= 1000) {
   if(PWtoWT >= 0.2 && PWtoWT < 0.3) {
