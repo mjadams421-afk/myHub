@@ -5,7 +5,7 @@ const returnA = document.getElementById('returnA')
 
 function PTravel() {
  //Prompts Goal is to find distance
- const prop = window.prompt('Type in piston or jet')
+ const prop = window.prompt('Type in piston or jet').toLowerCase().trim()
  const PW = Number(window.prompt('Type in aircraft power in hp if piston or thrust in lbs if jet'))
  const WT = Number(window.prompt('Type in aircraft weight in lbs'))
  const t = Number(window.prompt('Type in aircraft flight time in hours'))
@@ -79,7 +79,7 @@ if(prop === 'jet' && PW >= 20000) {
 
 //Getting speed on piston type aircraft with power to weight ratio
 if(prop === 'piston') {
- if(PwtoWT >= 0.2 && PWtoWT < 0.3) {speed += 300; }
+ if(PWtoWT >= 0.2 && PWtoWT < 0.3) {speed += 300; }
  else if(PWtoWT >= 0.1 && PWtoWT < 0.2) {speed += 200; }
  else if(PWtoWT >= 0 && PWtoWT < 0.1) {speed += 100; }
  else { speed += 350;} 
