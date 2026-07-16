@@ -25,7 +25,7 @@ function PTravel() {
   else if (PWtoWT < 0.3 && t >= 0.2) { speed += 500}
   else if (PWtoWT < 0.2 && PWtoWT >= 0.1) { speed += 300}
   else if (PWtoWT < 0.1) { speed += 200}
-  else {speed += 'Enter correct values for power and or Weight'}
+  else {speed += 1500}
  }
  else {speed += 0}
 
@@ -75,19 +75,19 @@ if(prop === 'jet' && PW >= 20000) {
     if(PWtoWT >= 0.8 && PWtoWT < 0.9) {
       speed += 100;
     } }
- rangeA = speed * t;
+
 
 //Getting speed on piston type aircraft with power to weight ratio
 if(prop === 'piston') {
  if(PwtoWT >= 0.2 && PWtoWT < 0.3) {speed += 300; }
  else if(PWtoWT >= 0.1 && PWtoWT < 0.2) {speed += 200; }
  else if(PWtoWT >= 0 && PWtoWT < 0.1) {speed += 100; }
- else { ' Enter correct values for power and weight';} 
+ else { speed += 350;} 
  }
  else { speed += 0; }
  
  //0.0 - 0.1 power piston adjustment
- if(prop === 'piston'&& PW >= 750) {
+ if(prop === 'piston' && PW >= 750) {
   if(PWtoWT >= 0.0 && PWtoWT < 0.1) {
    speed += 100;
   } }
@@ -107,6 +107,8 @@ if(prop === 'piston') {
   if(PWtoWT >= 0.2 && PWtoWT < 0.3) {
     speed += 50;
   } }
+
+ rangeA += speed * t;
 
 //Adding to range based on year built
  if ( T > 1980 ) { rangeB += 1000 }
