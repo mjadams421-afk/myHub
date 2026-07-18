@@ -5,6 +5,8 @@ html {
  head {
   display: flex;
   justify-content: center;
+  align-content: center;
+  align-items: center;
   width: 100%;
   height: auto;
   font-size: 4rem;
@@ -13,24 +15,11 @@ html {
   background-color: rgba(150,120,50,0.8);
  }
 
- header {
-  display: flex;
-  width: 100%;
-  height: auto;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  background-color: darkblue;
-  color: lightgrey;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 3rem;
-  transition: color 1s ease-in 200ms, background-color 1.3s ease-in 200ms;
- }
-
- header:hover {
+ head:hover {
  background-color: lightgrey;
  color: darkblue;
  }
+
 
 article button {
   display: flex;
@@ -57,4 +46,23 @@ article h1:hover {
   font-family: Arial, Helvetica, sans-serif;
   color: yellow;
   background-color: black;
+}
+
+figure .container{
+ display: inline-flex;
+ flex-flow: column;
+ width: 100%;
+ height: auto;
+}
+
+figure .container .piston{
+ color: yellow;
+ background-color: black;
+ width: 100%;
+}
+
+figure .container .jet{
+ color: black;
+ background-color: yellow;
+ width: 100%;
 }
