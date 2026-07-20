@@ -8,9 +8,10 @@ html {
   justify-content: center;
   align-content: center;
   align-items: center;
+  justify-content: center;
   width: 100%;
   height: auto;
-  font-size: 4rem;
+  font-size: 6rem;
   font-family: 'Times New Roman', Times, serif;
   color: rgb(180,220,220);
   background-color: rgba(150,120,50,0.8);
@@ -25,7 +26,8 @@ html {
 article button {
   display: flex;
   justify-content: center;
-  width: 50%;
+  font-size: 3rem;
+  width: 100%;
   height: auto;
   background-color: grey;
   transition: background-color 800ms linear 200ms;
