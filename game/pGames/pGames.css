@@ -1,5 +1,6 @@
 html {
  font-size: 16px;
+ background-color: rgb(41, 39, 39);
 }
 
  head {
@@ -37,6 +38,7 @@ article button:hover {
 article h1 {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 3rem;
+  align-items: center;
   color: black;
   background-color: yellow;
   transition: color 1s linear 200ms, background-color 700ms ease-in 200ms, font-family 700ms ease-in 200ms; 
