@@ -140,7 +140,7 @@ if(prop === 'piston') {
  } else {rangeB = 'Enter correct date'}
  let range = rangeA + rangeB;
  //console.log('The aircraft can travel ' + range +' miles distance' + ' with a speed of ' + speed + ' mph');
- returnA.innerHTML = range +' miles distance' + ' with a speed of ' + speed + ' mph' + ' | ' + ' From graph Power is' + PW + ' and Power to Weight is' + PWtoWT + ' lbs';
+ returnA.innerHTML = range +' miles distance' + ' with a speed of ' + speed + ' mph' + ' | ' + ' From graph Power is ' + PW + ' and Power to Weight is ' + PWtoWT + ' lbs';
 }
 
 buttonA.addEventListener('mousedown',PTravel);

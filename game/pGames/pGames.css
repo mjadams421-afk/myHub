@@ -3,11 +3,8 @@ html {
  background-color: rgb(41, 39, 39);
 }
 
- head {
+ header {
   display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
   justify-content: center;
   width: 100%;
   height: auto;
@@ -17,7 +14,7 @@ html {
   background-color: rgba(150,120,50,0.8);
  }
 
- head:hover {
+ header:hover {
  background-color: lightgrey;
  color: darkblue;
  }
@@ -39,8 +36,8 @@ article button:hover {
 
 article h1 {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 3rem;
-  align-items: center;
+  font-size: 4rem;
+  justify-content: center;
   color: black;
   background-color: yellow;
   transition: color 1s linear 200ms, background-color 700ms ease-in 200ms, font-family 700ms ease-in 200ms; 
@@ -50,6 +47,11 @@ article h1:hover {
   font-family: Arial, Helvetica, sans-serif;
   color: yellow;
   background-color: black;
+}
+
+article h1 #returnA {
+ position: sticky;
+ top: 0px;
 }
 
 figure .container{
